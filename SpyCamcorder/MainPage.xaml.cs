@@ -14,6 +14,7 @@ using System.IO;
 using Microsoft.Live;
 using Microsoft.Phone.BackgroundTransfer;
 using Common.IsolatedStoreage;
+using Microsoft.Phone.Tasks;
 
 namespace SpyCamcorder
 {
@@ -247,6 +248,12 @@ namespace SpyCamcorder
         private void SettingsClicked(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/Settings.xaml", UriKind.Relative));
+        }
+
+        private void ReviewClicked(object sender, EventArgs e)
+        {
+            MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+            marketplaceReviewTask.Show();
         }
     }
 }

@@ -53,6 +53,7 @@
                 <shell:ApplicationBarMenuItem Click="ShowFilesClicked" Text="Show Files"/>
                 <shell:ApplicationBarMenuItem Click="StopRecordClicked" Text="Stop"/>
                 <shell:ApplicationBarMenuItem Click="SettingsClicked" Text="Settings"/>
+                <shell:ApplicationBarMenuItem Click="ReviewClicked" Text="Review"/>
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
