@@ -39,6 +39,7 @@ namespace SpyCamcorder
             try
             {
                 InitializeComponent();
+                AppSettings.Initialize();
 
                 PhoneApplicationService.Current.ApplicationIdleDetectionMode = IdleDetectionMode.Disabled;
                 PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;

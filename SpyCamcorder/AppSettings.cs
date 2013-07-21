@@ -1,4 +1,5 @@
 ﻿using Common.IsolatedStoreage;
+using Microsoft.Phone.Shell;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace SpyCamcorder
         public static string CAMERAPOSITION = "CAMERAPOSITION";
         public static string REAR = "REAR";
         public static string FRONT = "FRONT";
+        public static string LOCKSCREENDISABLED = "LOCKSCREENDISABLED";
 
         public enum Camera
         {
@@ -20,6 +22,29 @@ namespace SpyCamcorder
         }
 
         public static Camera SelectedCamera { get; set; }
+
+        public static bool _lockScreenDisabled;
+        public static bool LockScreenDisabled 
+        { 
+            get { return _lockScreenDisabled;} 
+            set 
+            { 
+                _lockScreenDisabled = value;
+                if (value)
+                {
+                    ToggleLockScreen(IdleDetectionMode.Disabled);
+                }
+                else
+                {
+                    ToggleLockScreen(IdleDetectionMode.Enabled);
+                }
+            } 
+        }
+
+        public static void Initialize()
+        {
+
+        }
 
         static AppSettings()
         {
@@ -40,6 +65,20 @@ namespace SpyCamcorder
             {
                 SelectedCamera = Camera.Rear;
             }
+
+            if (IS.GetSetting(LOCKSCREENDISABLED) != null)
+            {
+                LockScreenDisabled = (bool)IS.GetSetting(LOCKSCREENDISABLED);
+            }
+            else
+            {
+                LockScreenDisabled = false;
+            }
+        }
+
+        public static void ToggleLockScreen(IdleDetectionMode mode)
+        {
+            PhoneApplicationService.Current.UserIdleDetectionMode = mode;
         }
     }
 }

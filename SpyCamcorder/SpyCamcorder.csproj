@@ -93,6 +93,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\LockScreenConverter.cs" />
     <Compile Include="ListOfStoredFiles.xaml.cs">
       <DependentUpon>ListOfStoredFiles.xaml</DependentUpon>
     </Compile>

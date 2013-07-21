@@ -11,9 +11,14 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
+    xmlns:converter="clr-namespace:SpyCamcorder.Converters"
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
 
+    <phone:PhoneApplicationPage.Resources>
+        <converter:LockScreenConverter x:Key="LockConverter"/>
+    </phone:PhoneApplicationPage.Resources>
+    
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
@@ -29,11 +34,16 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <StackPanel Margin="5,0,0,0" Orientation="Horizontal">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackPanel HorizontalAlignment="Center" Grid.Row="0" Margin="5,0,0,0" Orientation="Horizontal">
                 <TextBlock FontSize="30" VerticalAlignment="Center" Text="Camera: " />
                 <RadioButton IsChecked="{Binding FrontCameraSelected, Mode=TwoWay}" GroupName="CameraPosition" x:Name="FrontCamera" FontSize="30" Content="Front"/>
                 <RadioButton IsChecked="{Binding RearCameraSelected, Mode=TwoWay}" GroupName="CameraPosition" x:Name="BackCamera" FontSize="30" Content="Back"/>
             </StackPanel>
+            <toolkit:ToggleSwitch  HorizontalAlignment="Center" Grid.Row="1" IsChecked="{Binding LockScreenDisabled, Mode=TwoWay}" Content="{Binding LockScreenDisabled, Converter={StaticResource LockConverter}, UpdateSourceTrigger=Explicit, Mode=TwoWay}"/>
         </Grid>
     </Grid>
 

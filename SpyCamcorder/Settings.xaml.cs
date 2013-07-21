@@ -23,7 +23,7 @@ namespace SpyCamcorder
 
         private void LoadSettings()
         {
-            string position = string.Empty ;
+            string position = string.Empty;
 
             if (IS.GetSetting(AppSettings.CAMERAPOSITION) != null)
             {
@@ -47,29 +47,37 @@ namespace SpyCamcorder
                     RearCameraSelected = true;
                 }
             }
+
+            if (IS.GetSetting(AppSettings.LOCKSCREENDISABLED) != null)
+            {
+                LockScreenDisabled = (bool)IS.GetSetting(AppSettings.LOCKSCREENDISABLED);
+            }
+
         }
 
         private bool _rearCameraSelected;
         public bool RearCameraSelected
         {
             get { return _rearCameraSelected; }
-            set { _rearCameraSelected = value; RaisePropertyChanged("RearCameraSelected");
-            if (value)
+            set
             {
-                IS.SaveSetting(AppSettings.CAMERAPOSITION, AppSettings.REAR);
-                AppSettings.SelectedCamera = AppSettings.Camera.Rear;
-            }
+                _rearCameraSelected = value; RaisePropertyChanged("RearCameraSelected");
+                if (value)
+                {
+                    IS.SaveSetting(AppSettings.CAMERAPOSITION, AppSettings.REAR);
+                    AppSettings.SelectedCamera = AppSettings.Camera.Rear;
+                }
             }
         }
-        
+
 
         private bool _frontCameraSelected;
         public bool FrontCameraSelected
         {
             get { return _frontCameraSelected; }
-            set 
-            { 
-                _frontCameraSelected = value; 
+            set
+            {
+                _frontCameraSelected = value;
                 RaisePropertyChanged("FrontCameraSelected");
                 if (value)
                 {
@@ -78,7 +86,21 @@ namespace SpyCamcorder
                 }
             }
         }
-        
+
+        private bool _lockScreenDisabled;
+        public bool LockScreenDisabled
+        {
+            get { return _lockScreenDisabled; }
+            set
+            {
+                _lockScreenDisabled = value;
+                RaisePropertyChanged("LockScreenDisabled");
+                IS.SaveSetting(AppSettings.LOCKSCREENDISABLED, value);
+                AppSettings.LockScreenDisabled = value;
+            }
+        }
+
+
 
         public event PropertyChangedEventHandler PropertyChanged;
         public void RaisePropertyChanged(string prop)
