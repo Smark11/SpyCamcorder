@@ -54,6 +54,7 @@
                 <shell:ApplicationBarMenuItem Click="StopRecordClicked" Text="Stop"/>
                 <shell:ApplicationBarMenuItem Click="SettingsClicked" Text="Settings"/>
                 <shell:ApplicationBarMenuItem Click="ReviewClicked" Text="Review"/>
+                <shell:ApplicationBarMenuItem Click="MoreApplicationsClicked" Text="More Apps by KLBCreations"/>
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>

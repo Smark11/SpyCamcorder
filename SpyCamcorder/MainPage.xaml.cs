@@ -255,5 +255,13 @@ namespace SpyCamcorder
             MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
             marketplaceReviewTask.Show();
         }
+
+        private void MoreApplicationsClicked(object sender, EventArgs e)
+        {
+            MarketplaceSearchTask marketplaceSearchTask = new MarketplaceSearchTask();
+
+            marketplaceSearchTask.SearchTerms = "KLBCreations";
+            marketplaceSearchTask.Show();
+        }
     }
 }
