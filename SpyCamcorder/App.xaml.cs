@@ -7,6 +7,7 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using SpyCamcorder.Resources;
+using Microsoft.Phone.Marketplace;
 
 namespace SpyCamcorder
 {
@@ -17,6 +18,17 @@ namespace SpyCamcorder
         /// </summary>
         /// <returns>The root frame of the Phone Application.</returns>
         public static PhoneApplicationFrame RootFrame { get; private set; }
+
+        private static LicenseInformation _licenseInfo = new LicenseInformation();
+
+        private static bool _isTrial;
+        public bool IsTrial
+        {
+            get
+            {
+                return _isTrial;
+            }
+        }
 
         /// <summary>
         /// Constructor for the Application object.
@@ -61,12 +73,20 @@ namespace SpyCamcorder
         // This code will not execute when the application is reactivated
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
+            CheckLicense();
+            _isTrial = true;
         }
 
         // Code to execute when the application is activated (brought to foreground)
         // This code will not execute when the application is first launched
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
+            CheckLicense();
+
+            _isTrial = true;
+
+            MainPage app = MainPage._mainPageInstance;
+            app.IsAppTrialOrBought();
         }
 
         // Code to execute when the application is deactivated (sent to background)
@@ -99,6 +119,17 @@ namespace SpyCamcorder
                 // An unhandled exception has occurred; break into the debugger
                 Debugger.Break();
             }
+        }
+
+        /// <summary>
+        /// Check the current license information for this application
+        /// </summary>
+        private void CheckLicense()
+        {
+            //_isTrial = false;
+
+            _isTrial = _licenseInfo.IsTrial();
+            //_isTrial = false;
         }
 
         #region Phone application initialization

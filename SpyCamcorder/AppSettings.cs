@@ -14,6 +14,8 @@ namespace SpyCamcorder
         public static string REAR = "REAR";
         public static string FRONT = "FRONT";
         public static string LOCKSCREENDISABLED = "LOCKSCREENDISABLED";
+        public static string ISSECONDTIMEOPENED = "ISSECONDTIMEOPENED";
+        public static string ISAPPRATED = "ISAPPRATED";
 
         public enum Camera
         {
@@ -41,9 +43,18 @@ namespace SpyCamcorder
             } 
         }
 
+        public static bool IsSecondTimeOpen { get; set; }
+        public static bool IsAppRated { get; set; }
+
         public static void Initialize()
         {
 
+        }
+
+        public static void SetAppAsRated()
+        {
+            IS.SaveSetting(ISAPPRATED, true);
+            IsAppRated = true;
         }
 
         static AppSettings()
@@ -73,6 +84,22 @@ namespace SpyCamcorder
             else
             {
                 LockScreenDisabled = false;
+            }
+
+            if (IS.GetSetting(ISSECONDTIMEOPENED) == null)
+            {
+                IsSecondTimeOpen = false;
+                IS.SaveSetting(ISSECONDTIMEOPENED, true);
+            }
+            else
+            {
+                IsSecondTimeOpen = true;
+            }
+
+            if (IS.GetSetting(ISAPPRATED) != null)
+            {
+                bool rated = (bool)IS.GetSetting(ISAPPRATED);
+                IsAppRated = rated;
             }
         }
 

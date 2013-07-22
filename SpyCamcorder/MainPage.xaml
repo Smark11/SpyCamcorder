@@ -36,7 +36,7 @@
             <phone:WebBrowser x:Name="WebBrowser" Grid.Row="0"/>
 
             <StackPanel Orientation="Horizontal" Grid.Row="1">
-                <Button Click="RecordClicked" Height="75">
+                <Button x:Name="RecordButton" Click="RecordClicked" Height="75">
                     <Image Source="/Icons/green.png"/>
                 </Button>
                 <TextBox x:Name="Website" Width="300" Height="75"/>
@@ -50,11 +50,11 @@
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar x:Name="NavBar"  Mode="Minimized" >
             <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem Click="ShowFilesClicked" Text="Show Files"/>
-                <shell:ApplicationBarMenuItem Click="StopRecordClicked" Text="Stop"/>
-                <shell:ApplicationBarMenuItem Click="SettingsClicked" Text="Settings"/>
-                <shell:ApplicationBarMenuItem Click="ReviewClicked" Text="Review"/>
-                <shell:ApplicationBarMenuItem Click="MoreApplicationsClicked" Text="More Apps by KLBCreations"/>
+                <shell:ApplicationBarMenuItem x:Name="ShowFilesButton" Click="ShowFilesClicked" Text="Show Files"/>
+                <shell:ApplicationBarMenuItem x:Name="StopRecordButton" Click="StopRecordClicked" Text="Stop"/>
+                <shell:ApplicationBarMenuItem x:Name="SettingsButton" Click="SettingsClicked" Text="Settings"/>
+                <shell:ApplicationBarMenuItem x:Name="ReviewButton" Click="ReviewClicked" Text="Review"/>
+                <shell:ApplicationBarMenuItem x:Name="MoreAppsButton" Click="MoreApplicationsClicked" Text="More Apps by KLBCreations"/>
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>

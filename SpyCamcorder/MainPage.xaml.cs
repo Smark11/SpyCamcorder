@@ -15,11 +15,13 @@ using Microsoft.Live;
 using Microsoft.Phone.BackgroundTransfer;
 using Common.IsolatedStoreage;
 using Microsoft.Phone.Tasks;
+using Common.Licencing;
 
 namespace SpyCamcorder
 {
     public partial class MainPage : PhoneApplicationPage
     {
+        public static MainPage _mainPageInstance;
         private const string VIDEONUMBER = "videonumber";
 
         CaptureSource _captureSource;
@@ -38,17 +40,83 @@ namespace SpyCamcorder
         {
             try
             {
+                _mainPageInstance = this;
+
                 InitializeComponent();
                 AppSettings.Initialize();
-
-                PhoneApplicationService.Current.ApplicationIdleDetectionMode = IdleDetectionMode.Disabled;
-                PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
-
                 WebBrowser.Source = new Uri("http://www.espn.com/mobile", UriKind.Absolute);
 
                 // Sample code to localize the ApplicationBar
                 //BuildLocalizedApplicationBar();
                 InitalizeVideoRecorder();
+
+                IsAppTrialOrBought();
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        public void IsAppTrialOrBought()
+        {
+            try
+            {
+                if ((Application.Current as App).IsTrial)
+                {
+                    Trial.SaveStartDateOfTrial();
+
+                    if (Trial.IsTrialExpired())
+                    {
+                        MessageBox.Show("Your trial has expired.  Please support the developers, and purchase this application!");
+                        RecordButton.IsEnabled = false;
+                        MarketplaceDetailTask task = new MarketplaceDetailTask();
+                        task.Show();
+                        InitializeAppForTrialOrActivated(false);
+                    }
+                    else
+                    {
+                        if (AppSettings.IsSecondTimeOpen && !AppSettings.IsAppRated)
+                        {
+                            MessageBoxResult msgResult;
+                            msgResult = MessageBox.Show("You have " + Trial.GetDaysLeftInTrial() + " days remaining in your trial.  To Extend your trial from 3 days to 10 Days, Rate this app 5 stars, and leave a positive comment. ", "Extend Trial?", MessageBoxButton.OKCancel);
+                            if (msgResult == MessageBoxResult.OK)
+                            {
+                                Trial.Add10DaysToTrial();
+                                AppSettings.SetAppAsRated();
+                                MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                                marketplaceReviewTask.Show();
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("You have " + Trial.GetDaysLeftInTrial() + " days remaining in your trial.");
+                        }
+                        InitializeAppForTrialOrActivated(true);
+                    }
+                }
+                else
+                {
+                    InitializeAppForTrialOrActivated(true);
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void InitializeAppForTrialOrActivated(bool unlocked)
+        {
+            try
+            {
+                RecordButton.IsEnabled = unlocked;
+                //TODO Initialize app bar
+                //ShowFilesButton.IsEnabled = unlocked;
+                //StopRecordButton.IsEnabled = unlocked;
+                //SettingsButton.IsEnabled = unlocked;
+                //ReviewButton.IsEnabled = unlocked;
+                //MoreAppsButton.IsEnabled = unlocked;
             }
             catch (Exception ex)
             {
@@ -70,11 +138,6 @@ namespace SpyCamcorder
 
         private void ChooseCamera()
         {
-            //if (_captureSource.VideoCaptureDevice != null)
-            //{
-            //    _captureSource.VideoCaptureDevice = null;
-            //}
-
             IReadOnlyCollection<VideoCaptureDevice> availableSources = CaptureDeviceConfiguration.GetAvailableVideoCaptureDevices();
             CaptureDeviceConfiguration.RequestDeviceAccess();
 
@@ -112,6 +175,28 @@ namespace SpyCamcorder
 
         }
 
+        private string GetFileName()
+        {
+            string returnValue = string.Empty;
+            int storedNumber = 0;
+            int currentFileNumber = 0;
+
+            if (IS.GetSetting(VIDEONUMBER) != null)
+            {
+                storedNumber = (int)IS.GetSetting(VIDEONUMBER);
+            }
+
+            currentFileNumber = storedNumber + 1;
+
+            returnValue = "SpyCamera" + currentFileNumber + ".mp4";
+
+            IS.SaveSetting(VIDEONUMBER, currentFileNumber);
+
+            return returnValue;
+        }
+
+        #region click handlers
+
         private void RecordClicked(object sender, RoutedEventArgs e)
         {
             try
@@ -140,70 +225,6 @@ namespace SpyCamcorder
             {
 
             }
-        }
-
-        private void SkyDriveClicked(object sender, RoutedEventArgs e)
-        {
-            Tryit();
-        }
-
-        private async void Tryit()
-        {
-
-            var reqList = BackgroundTransferService.Requests.ToList();
-
-            foreach (var req in reqList)
-            {
-                BackgroundTransferService.Remove(BackgroundTransferService.Find(req.RequestId));
-            }
-
-            try
-            {
-                using (IsolatedStorageFile store = IsolatedStorageFile.GetUserStoreForApplication())
-                {
-                    using (var fileStream = store.OpenFile(_isoVideoFileName, System.IO.FileMode.Open, System.IO.FileAccess.Read, FileShare.Read))
-                    {
-                        store.CreateDirectory("/shared/transfers");
-                        store.CopyFile(_isoVideoFileName, "/shared/transfers/" + _isoVideoFileName, true);
-
-                        LiveAuthClient authClient = new LiveAuthClient("0000000040101617");
-                        LiveLoginResult authResult = await authClient.LoginAsync(new List<string>() { "wl.basic", "wl.skydrive", "wl.skydrive_update" });
-
-                        LiveConnectClient myClient = new LiveConnectClient(authResult.Session);
-                        LiveOperationResult result = await myClient.GetAsync("me/skydrive");
-
-                        LiveConnectClient uploadClient = new LiveConnectClient(authResult.Session);
-                        LiveOperationResult updateLoadResult = await uploadClient.BackgroundUploadAsync("me/skydrive", new Uri("/shared/transfers/" + _isoVideoFileName, UriKind.Relative), OverwriteOption.Overwrite);
-                        //LiveOperationResult opResult = await uploadClient.UploadAsync("me/skydrive", _isoVideoFile,fileStream.AsOutputStream, OverwriteOption.Overwrite);
-
-                        dynamic dResult = result.Result;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
-
-        private string GetFileName()
-        {
-            string returnValue = string.Empty;
-            int storedNumber = 0;
-            int currentFileNumber = 0;
-
-            if (IS.GetSetting(VIDEONUMBER) != null)
-            {
-                storedNumber = (int)IS.GetSetting(VIDEONUMBER);
-            }
-
-            currentFileNumber = storedNumber + 1;
-
-            returnValue = "SpyCamera" + currentFileNumber + ".mp4";
-
-            IS.SaveSetting(VIDEONUMBER, currentFileNumber);
-
-            return returnValue;
         }
 
         private void PreviewClicked(object sender, RoutedEventArgs e)
@@ -264,5 +285,7 @@ namespace SpyCamcorder
             marketplaceSearchTask.SearchTerms = "KLBCreations";
             marketplaceSearchTask.Show();
         }
+
+        #endregion click handlers
     }
 }
