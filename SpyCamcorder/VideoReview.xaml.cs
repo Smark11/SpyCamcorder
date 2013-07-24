@@ -14,10 +14,11 @@ using Microsoft.Phone.BackgroundTransfer;
 using System.Diagnostics;
 using System.Threading;
 using Microsoft.Phone.Net.NetworkInformation;
+using System.ComponentModel;
 
 namespace SpyCamcorder
 {
-    public partial class VideoReview : PhoneApplicationPage
+    public partial class VideoReview : PhoneApplicationPage, INotifyPropertyChanged
     {
         IsolatedStorageFileStream _isoStream;
         private string _fileName; 
@@ -41,6 +42,15 @@ namespace SpyCamcorder
             if (NavigationContext.QueryString.TryGetValue("parameter", out parameter))
             {
                 _fileName = parameter;
+            }
+
+            if (_fileName.ToUpper().Contains("BACK"))
+            {
+                RotateTransform.Angle = 90;
+            }
+            else
+            {
+                RotateTransform.Angle = 270;
             }
 
             if (_fileName != string.Empty)
@@ -123,6 +133,22 @@ namespace SpyCamcorder
             else
             {
                 MessageBox.Show("Please connect to a wifi network in order to upload videos.");
+            }
+        }
+
+        private int _rotateAngle;
+        public int RotateAngle
+        {
+            get { return _rotateAngle; }
+            set { _rotateAngle = value; RaisePropertyChanged("RotateAngle"); }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        public void RaisePropertyChanged(string prop)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(prop));
             }
         }
     }

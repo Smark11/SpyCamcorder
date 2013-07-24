@@ -16,8 +16,23 @@
     <phone:PhoneApplicationPage.Resources>
         <DataTemplate x:Key="FileTemplate">
             <Border BorderBrush="White" BorderThickness="2">
-                <Button Margin="5" Click="FileClicked" Content="{Binding}" FontSize="30">
-                </Button>
+                <!--<TextBlock Margin="5" Click="FileClicked"  FontSize="30">-->
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock VerticalAlignment="Center" Text="{Binding FileName}"/>
+                    <Button Click="PlayClicked" Margin="10,0,0,0">
+                        <StackPanel>
+                            <Image Height="50" Width="50" Source="/Icons/transport.play.png"/>
+                            <TextBlock HorizontalAlignment="Center" FontSize="12" Text="Play"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Click="DeleteClicked" Margin="10,0,0,0">
+                        <StackPanel>
+                            <Image Height="50" Width="50" Source="/Icons/stop.png"/>
+                            <TextBlock HorizontalAlignment="Center" FontSize="12" Text="Delete"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <!--</TextBlock>-->
             </Border>
         </DataTemplate>
     </phone:PhoneApplicationPage.Resources>
@@ -30,8 +45,7 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="Video Files" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->

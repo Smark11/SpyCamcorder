@@ -34,7 +34,7 @@
                 HorizontalAlignment="Center"
                 >
                 <MediaElement.RenderTransform>
-                    <RotateTransform CenterX="250" CenterY="250"  Angle="270"/>
+                    <RotateTransform x:Name="RotateTransform" CenterX="250" CenterY="250" />
                 </MediaElement.RenderTransform>
             </MediaElement>
             

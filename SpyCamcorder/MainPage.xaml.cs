@@ -181,6 +181,15 @@ namespace SpyCamcorder
             int storedNumber = 0;
             int currentFileNumber = 0;
 
+            if (AppSettings.SelectedCamera == AppSettings.Camera.Front)
+            {
+                returnValue = "Front.";
+            }
+            else
+            {
+                returnValue = "Back.";
+            }
+
             if (IS.GetSetting(VIDEONUMBER) != null)
             {
                 storedNumber = (int)IS.GetSetting(VIDEONUMBER);
@@ -188,7 +197,7 @@ namespace SpyCamcorder
 
             currentFileNumber = storedNumber + 1;
 
-            returnValue = "SpyCamera" + currentFileNumber + ".mp4";
+            returnValue += currentFileNumber + ".mp4";
 
             IS.SaveSetting(VIDEONUMBER, currentFileNumber);
 
@@ -286,6 +295,55 @@ namespace SpyCamcorder
             marketplaceSearchTask.Show();
         }
 
+        private void BackButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            try
+            {
+                // Stop recording.
+                if (_captureSource.VideoCaptureDevice != null
+                && _captureSource.State == CaptureState.Started)
+                {
+                    _captureSource.Stop();
+
+                    // Disconnect fileSink.
+                    _fileSink.CaptureSource = null;
+                    _fileSink.IsolatedStorageFileName = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                
+            }
+        }
+
+        private void CleanStorageClicked(object sender, EventArgs e)
+        {
+            MessageBoxResult rslt;
+
+            rslt = MessageBox.Show("Do you wish to delete all of your videos?  Warning:  once deleted, they can not be recovered!", "Delete all Videos", MessageBoxButton.OK);
+
+            if (rslt == MessageBoxResult.OK)
+            {
+                try
+                {
+                    using (var iso = IsolatedStorageFile.GetUserStoreForApplication())
+                    {
+                        string[] allFiles = iso.GetFileNames();
+
+                        for (int i = 0; i < allFiles.Count(); i++)
+                        {
+                            iso.DeleteFile(allFiles[i]);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
+        }
+
         #endregion click handlers
+
     }
 }

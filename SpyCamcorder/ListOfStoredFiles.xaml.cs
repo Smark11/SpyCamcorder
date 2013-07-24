@@ -17,10 +17,17 @@ namespace SpyCamcorder
     {
         public ListOfStoredFiles()
         {
-            InitializeComponent();
-            Files = new ObservableCollection<string>();
-            DataContext = this;
-            LoadFiles();
+            try
+            {
+                InitializeComponent();
+                Files = new ObservableCollection<Video>();
+                DataContext = this;
+                LoadFiles();
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void LoadFiles()
@@ -34,15 +41,15 @@ namespace SpyCamcorder
 
             foreach (var row in files)
             {
-                if (row.ToUpper().Contains("SPY"))
+                if (row.ToUpper().Contains("BACK") || row.ToUpper().Contains("FRONT"))
                 {
-                    Files.Add(row);
+                    Files.Add(new Video(row));
                 }
             }
         }
 
-        private ObservableCollection<string> _files;
-        public ObservableCollection<string> Files
+        private ObservableCollection<Video> _files;
+        public ObservableCollection<Video> Files
         {
             get { return _files; }
             set { _files = value; RaisePropertyChanged("Files"); }
@@ -69,5 +76,65 @@ namespace SpyCamcorder
 
             }
         }
+
+        private void PlayClicked(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            Video video = btn.DataContext as Video;
+
+            try
+            {
+                NavigationService.Navigate(new Uri("/VideoReview.xaml?parameter=" + video.FileName, UriKind.Relative));
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void DeleteClicked(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            Video video = btn.DataContext as Video;
+            
+            try
+            {
+                using (var iso = IsolatedStorageFile.GetUserStoreForApplication())
+                {
+                    iso.DeleteFile(video.FileName);
+
+                    Files.Remove(video);
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+    }
+
+    public class Video : INotifyPropertyChanged
+    {
+        public Video(string fileName)
+        {
+            FileName = fileName;
+        }
+
+        private string _fileName;
+        public string FileName
+        {
+            get { return _fileName; }
+            set { _fileName = value; }
+        }
+        
+
+        public void RaisePropertyChanged(string prop)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(prop));
+            }
+        }
+        public event PropertyChangedEventHandler PropertyChanged;
     }
 }
