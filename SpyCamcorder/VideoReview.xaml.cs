@@ -37,29 +37,36 @@ namespace SpyCamcorder
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            string parameter = string.Empty;
-
-            if (NavigationContext.QueryString.TryGetValue("parameter", out parameter))
+            try
             {
-                _fileName = parameter;
+                string parameter = string.Empty;
+
+                if (NavigationContext.QueryString.TryGetValue("parameter", out parameter))
+                {
+                    _fileName = parameter;
+                }
+
+                if (_fileName.ToUpper().Contains("BACK"))
+                {
+                    RotateTransform.Angle = 90;
+                }
+                else
+                {
+                    RotateTransform.Angle = 270;
+                }
+
+                if (_fileName != string.Empty)
+                {
+                    _isoStream = new IsolatedStorageFileStream(_fileName, FileMode.Open, FileAccess.Read, IsolatedStorageFile.GetUserStoreForApplication());
+
+                    VideoPlayer.SetSource(_isoStream);
+                    VideoPlayer.MediaEnded += VideoPlayer_MediaEnded;
+                    VideoPlayer.Play();
+                }
             }
-
-            if (_fileName.ToUpper().Contains("BACK"))
+            catch (Exception ex)
             {
-                RotateTransform.Angle = 90;
-            }
-            else
-            {
-                RotateTransform.Angle = 270;
-            }
 
-            if (_fileName != string.Empty)
-            {
-                _isoStream = new IsolatedStorageFileStream(_fileName, FileMode.Open, FileAccess.Read, IsolatedStorageFile.GetUserStoreForApplication());
-
-                VideoPlayer.SetSource(_isoStream);
-                VideoPlayer.MediaEnded += VideoPlayer_MediaEnded;
-                VideoPlayer.Play();
             }
 
             base.OnNavigatedTo(e);
@@ -72,17 +79,38 @@ namespace SpyCamcorder
 
         private void StopHandler(object sender, RoutedEventArgs e)
         {
-            VideoPlayer.Stop();
+            try
+            {
+                VideoPlayer.Stop();
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void PlayHandler(object sender, RoutedEventArgs e)
         {
-            VideoPlayer.Play();
+            try
+            {
+                VideoPlayer.Play();
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void PauseHandler(object sender, RoutedEventArgs e)
         {
-            VideoPlayer.Pause();
+            try
+            {
+                VideoPlayer.Pause();
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private IProgress<LiveOperationProgress> _uploadProgress;

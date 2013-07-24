@@ -23,36 +23,42 @@ namespace SpyCamcorder
 
         private void LoadSettings()
         {
-            string position = string.Empty;
+            try
+            {
+                string position = string.Empty;
 
-            if (IS.GetSetting(AppSettings.CAMERAPOSITION) != null)
-            {
-                position = (string)IS.GetSetting(AppSettings.CAMERAPOSITION);
-            }
-
-            if (position == string.Empty)
-            {
-                RearCameraSelected = true;
-            }
-            else
-            {
-                if (position.ToUpper().Equals(AppSettings.FRONT))
+                if (IS.GetSetting(AppSettings.CAMERAPOSITION) != null)
                 {
-                    FrontCameraSelected = true;
-                    RearCameraSelected = false;
+                    position = (string)IS.GetSetting(AppSettings.CAMERAPOSITION);
+                }
+
+                if (position == string.Empty)
+                {
+                    RearCameraSelected = true;
                 }
                 else
                 {
-                    FrontCameraSelected = false;
-                    RearCameraSelected = true;
+                    if (position.ToUpper().Equals(AppSettings.FRONT))
+                    {
+                        FrontCameraSelected = true;
+                        RearCameraSelected = false;
+                    }
+                    else
+                    {
+                        FrontCameraSelected = false;
+                        RearCameraSelected = true;
+                    }
+                }
+
+                if (IS.GetSetting(AppSettings.LOCKSCREENDISABLED) != null)
+                {
+                    LockScreenDisabled = (bool)IS.GetSetting(AppSettings.LOCKSCREENDISABLED);
                 }
             }
-
-            if (IS.GetSetting(AppSettings.LOCKSCREENDISABLED) != null)
+            catch (Exception ex)
             {
-                LockScreenDisabled = (bool)IS.GetSetting(AppSettings.LOCKSCREENDISABLED);
-            }
 
+            }
         }
 
         private bool _rearCameraSelected;

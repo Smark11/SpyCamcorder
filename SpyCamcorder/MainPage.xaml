@@ -39,11 +39,16 @@
             <phone:WebBrowser x:Name="WebBrowser" Grid.Row="0"/>
 
             <StackPanel Orientation="Horizontal" Grid.Row="1">
-                <Button x:Name="RecordButton" Click="RecordClicked" Height="75">
-                    <Image Source="/Icons/green.png"/>
+                <Button x:Name="RecordButton" VerticalAlignment="Center" 
+                        Background="Transparent" BorderBrush="Transparent" Click="RecordClicked" Height="85">
+                    <Border x:Name="RecordBorder" Margin="-25,0,0,0" CornerRadius="50" BorderThickness="3,3,3,3">
+                        <!--<Border.RenderTransform>
+                            <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                        </Border.RenderTransform>-->
+                        <Image Source="/Icons/refresh.png"/>
+                    </Border>
                 </Button>
-                <TextBox x:Name="Website" Width="300" Height="75"/>
-                <Button Content="Go" Click="NavigateWebBrowserClicked" Height="75"/>
+                <TextBox Margin="-30,0,0,0" InputScope="Url" KeyDown="WebSiteUrlKeyDown"  GotFocus="WebBrowserBoxGotFocus" x:Name="Website" Width="425" Height="75"/>
             </StackPanel>
             
         </Grid>
@@ -53,9 +58,9 @@
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar x:Name="NavBar"  Mode="Minimized" >
             <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem x:Name="StopRecordButton" Click="StopRecordClicked" Text="Stop"/>
                 <shell:ApplicationBarMenuItem x:Name="MoreAppsButton" Click="MoreApplicationsClicked" Text="More Apps by KLBCreations"/>
                 <shell:ApplicationBarMenuItem x:Name="DeleteAllVideos" Click="CleanStorageClicked" Text="Delete All Videos"/>
+                <shell:ApplicationBarMenuItem x:Name="About" Click="AboutClicked" Text="about"/>
             </shell:ApplicationBar.MenuItems>
             <shell:ApplicationBarIconButton Click="SettingsClicked" IconUri="/Assets/AppBar/feature.settings.png" Text="Settings"/>
             <shell:ApplicationBarIconButton Click="ShowFilesClicked" IconUri="/Assets/AppBar/folder.png" Text="Videos"/>

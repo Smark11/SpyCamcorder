@@ -32,19 +32,26 @@ namespace SpyCamcorder
 
         private void LoadFiles()
         {
-            string[] files;
-
-            using (var iso = IsolatedStorageFile.GetUserStoreForApplication())
+            try
             {
-                files = iso.GetFileNames();
-            }
+                string[] files;
 
-            foreach (var row in files)
-            {
-                if (row.ToUpper().Contains("BACK") || row.ToUpper().Contains("FRONT"))
+                using (var iso = IsolatedStorageFile.GetUserStoreForApplication())
                 {
-                    Files.Add(new Video(row));
+                    files = iso.GetFileNames();
                 }
+
+                foreach (var row in files)
+                {
+                    if (row.ToUpper().Contains("BACK") || row.ToUpper().Contains("FRONT"))
+                    {
+                        Files.Add(new Video(row));
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
             }
         }
 

@@ -21,8 +21,16 @@ namespace SpyCamcorder
 {
     public partial class MainPage : PhoneApplicationPage
     {
+        public enum RecordState
+        {
+            ReadyToRecord,
+            Recording
+        }
+
         public static MainPage _mainPageInstance;
         private const string VIDEONUMBER = "videonumber";
+        private const string STOREDWEBSITE = "storedwebsite";
+        private RecordState _currentState;
 
         CaptureSource _captureSource;
         VideoCaptureDevice _videoCaptureDevice;
@@ -44,7 +52,8 @@ namespace SpyCamcorder
 
                 InitializeComponent();
                 AppSettings.Initialize();
-                WebBrowser.Source = new Uri("http://www.espn.com/mobile", UriKind.Absolute);
+
+                GoToWebsite();
 
                 // Sample code to localize the ApplicationBar
                 //BuildLocalizedApplicationBar();
@@ -55,6 +64,20 @@ namespace SpyCamcorder
             catch (Exception ex)
             {
 
+            }
+        }
+
+        private void GoToWebsite()
+        {
+            if (IS.GetSetting(STOREDWEBSITE) == null)
+            {
+                Website.Text = "http://www.windowsphone.com/en-us/search?q=klbcreations";
+                WebBrowser.Source = new Uri("http://www.windowsphone.com/en-us/search?q=klbcreations", UriKind.Absolute);
+            }
+            else
+            {
+                WebBrowser.Source = new Uri((string)IS.GetSetting(STOREDWEBSITE), UriKind.Absolute);
+                Website.Text = (string)IS.GetSetting(STOREDWEBSITE);
             }
         }
 
@@ -126,47 +149,78 @@ namespace SpyCamcorder
 
         private void InitalizeVideoRecorder()
         {
-            _captureSource = new CaptureSource();
-            _fileSink = new FileSink();
+            try
+            {
+                _captureSource = new CaptureSource();
+                _fileSink = new FileSink();
 
 
-            _videoRecorderBrush = new VideoBrush();
-            _videoRecorderBrush.SetSource(_captureSource);
+                _videoRecorderBrush = new VideoBrush();
+                _videoRecorderBrush.SetSource(_captureSource);
 
-            _captureSource.Start();
+                _captureSource.Start();
+                SetRecordState(RecordState.ReadyToRecord);
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
+
+        public void SetRecordState(RecordState state)
+        {
+            switch(state)
+            {
+                case RecordState.ReadyToRecord:
+                    RecordBorder.BorderBrush = new SolidColorBrush(Colors.Green);
+                    _currentState = RecordState.ReadyToRecord;
+                    break;
+                case RecordState.Recording:
+                    RecordBorder.BorderBrush = new SolidColorBrush(Colors.Red);
+                    _currentState = RecordState.Recording;
+                    break;
+            }
+        }
+
 
         private void ChooseCamera()
         {
-            IReadOnlyCollection<VideoCaptureDevice> availableSources = CaptureDeviceConfiguration.GetAvailableVideoCaptureDevices();
-            CaptureDeviceConfiguration.RequestDeviceAccess();
-
-            _captureSource.Stop();
-
-            _captureSource.CaptureImageCompleted += _captureSource_CaptureImageCompleted;
-
-            if (availableSources.Count() == 1)
+            try
             {
-                //there is only one camera!
-                foreach (var row in availableSources)
-                {
-                    _captureSource.VideoCaptureDevice = row;
-                }
-            }
+                IReadOnlyCollection<VideoCaptureDevice> availableSources = CaptureDeviceConfiguration.GetAvailableVideoCaptureDevices();
+                CaptureDeviceConfiguration.RequestDeviceAccess();
 
-            if (AppSettings.SelectedCamera == AppSettings.Camera.Front)
-            {
-                foreach (var row in availableSources)
+                _captureSource.Stop();
+
+                _captureSource.CaptureImageCompleted += _captureSource_CaptureImageCompleted;
+
+                if (availableSources.Count() == 1)
                 {
-                    if (row.FriendlyName.ToUpper().Contains("SELF"))
+                    //there is only one camera!
+                    foreach (var row in availableSources)
                     {
                         _captureSource.VideoCaptureDevice = row;
                     }
                 }
+
+                if (AppSettings.SelectedCamera == AppSettings.Camera.Front)
+                {
+                    foreach (var row in availableSources)
+                    {
+                        if (row.FriendlyName.ToUpper().Contains("SELF"))
+                        {
+                            _captureSource.VideoCaptureDevice = row;
+                        }
+                    }
+                }
+                else
+                {
+                    _captureSource.VideoCaptureDevice = CaptureDeviceConfiguration.GetDefaultVideoCaptureDevice();
+                }
             }
-            else
+            catch (Exception ex)
             {
-                _captureSource.VideoCaptureDevice = CaptureDeviceConfiguration.GetDefaultVideoCaptureDevice();
+                MessageBox.Show("An error has occurred.  Please try again.");
             }
         }
 
@@ -178,28 +232,36 @@ namespace SpyCamcorder
         private string GetFileName()
         {
             string returnValue = string.Empty;
-            int storedNumber = 0;
-            int currentFileNumber = 0;
 
-            if (AppSettings.SelectedCamera == AppSettings.Camera.Front)
+            try
             {
-                returnValue = "Front.";
+                int storedNumber = 0;
+                int currentFileNumber = 0;
+
+                if (AppSettings.SelectedCamera == AppSettings.Camera.Front)
+                {
+                    returnValue = "Front.";
+                }
+                else
+                {
+                    returnValue = "Back.";
+                }
+
+                if (IS.GetSetting(VIDEONUMBER) != null)
+                {
+                    storedNumber = (int)IS.GetSetting(VIDEONUMBER);
+                }
+
+                currentFileNumber = storedNumber + 1;
+
+                returnValue += currentFileNumber + ".mp4";
+
+                IS.SaveSetting(VIDEONUMBER, currentFileNumber);
             }
-            else
+            catch (Exception ex)
             {
-                returnValue = "Back.";
+
             }
-
-            if (IS.GetSetting(VIDEONUMBER) != null)
-            {
-                storedNumber = (int)IS.GetSetting(VIDEONUMBER);
-            }
-
-            currentFileNumber = storedNumber + 1;
-
-            returnValue += currentFileNumber + ".mp4";
-
-            IS.SaveSetting(VIDEONUMBER, currentFileNumber);
 
             return returnValue;
         }
@@ -207,6 +269,65 @@ namespace SpyCamcorder
         #region click handlers
 
         private void RecordClicked(object sender, RoutedEventArgs e)
+        {
+            if (_currentState == RecordState.Recording)
+            {
+                StopRecording();
+            }
+            else
+            {
+                StartRecording();
+            }
+        }
+
+        private void PreviewClicked(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                NavigationService.Navigate(new Uri("/VideoReview.xaml", UriKind.Relative));
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void NavigateWebBrowserClicked(object sender, RoutedEventArgs e)
+        {
+            NavigateToWebPage();
+        }
+
+        private void NavigateToWebPage()
+        {
+            try
+            {
+                if (!Website.Text.ToUpper().StartsWith("HTTP://"))
+                {
+                    string text = Website.Text;
+                    Website.Text = "http://" + text;
+                }
+                WebBrowser.Source = new Uri(Website.Text, UriKind.Absolute);
+                IS.SaveSetting(STOREDWEBSITE, Website.Text);
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void ShowFilesClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                NavigationService.Navigate(new Uri("/ListOfStoredFiles.xaml", UriKind.Relative));
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void StartRecording()
         {
             try
             {
@@ -229,29 +350,16 @@ namespace SpyCamcorder
 
                     _captureSource.Start();
                 }
+
+                SetRecordState(RecordState.Recording);
             }
             catch (Exception ex)
             {
-
+                SetRecordState(RecordState.ReadyToRecord);
             }
         }
 
-        private void PreviewClicked(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/VideoReview.xaml", UriKind.Relative));
-        }
-
-        private void NavigateWebBrowserClicked(object sender, RoutedEventArgs e)
-        {
-            WebBrowser.Source = new Uri(Website.Text, UriKind.Absolute);
-        }
-
-        private void ShowFilesClicked(object sender, EventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/ListOfStoredFiles.xaml", UriKind.Relative));
-        }
-
-        private void StopRecordClicked(object sender, EventArgs e)
+        private void StopRecording()
         {
             try
             {
@@ -265,6 +373,7 @@ namespace SpyCamcorder
                     _fileSink.CaptureSource = null;
                     _fileSink.IsolatedStorageFileName = null;
                 }
+                SetRecordState(RecordState.ReadyToRecord);
             }
             // If stop fails, display an error.
             catch (Exception ex)
@@ -276,23 +385,49 @@ namespace SpyCamcorder
             }
         }
 
+        private void StopRecordClicked(object sender, EventArgs e)
+        {
+            
+        }
+
         private void SettingsClicked(object sender, EventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Settings.xaml", UriKind.Relative));
+            try
+            {
+                NavigationService.Navigate(new Uri("/Settings.xaml", UriKind.Relative));
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void ReviewClicked(object sender, EventArgs e)
         {
-            MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-            marketplaceReviewTask.Show();
+            try
+            {
+                MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                marketplaceReviewTask.Show();
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void MoreApplicationsClicked(object sender, EventArgs e)
         {
-            MarketplaceSearchTask marketplaceSearchTask = new MarketplaceSearchTask();
+            try
+            {
+                MarketplaceSearchTask marketplaceSearchTask = new MarketplaceSearchTask();
 
-            marketplaceSearchTask.SearchTerms = "KLBCreations";
-            marketplaceSearchTask.Show();
+                marketplaceSearchTask.SearchTerms = "KLBCreations";
+                marketplaceSearchTask.Show();
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void BackButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
@@ -343,7 +478,33 @@ namespace SpyCamcorder
             }
         }
 
-        #endregion click handlers
+        private void AboutClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                NavigationService.Navigate(new Uri("/About.xaml", UriKind.Relative));
+            }
+            catch (Exception ex)
+            {
 
+            }
+        }
+
+        private void WebBrowserBoxGotFocus(object sender, RoutedEventArgs e)
+        {
+            Website.SelectAll();
+        }
+
+        private void WebSiteUrlKeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key == System.Windows.Input.Key.Enter)
+            {
+                NavigateToWebPage();
+
+                this.Focus();
+            }
+        }
+
+        #endregion click handlers
     }
 }
