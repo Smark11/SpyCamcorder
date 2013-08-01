@@ -16,6 +16,7 @@ using Microsoft.Phone.BackgroundTransfer;
 using Common.IsolatedStoreage;
 using Microsoft.Phone.Tasks;
 using Common.Licencing;
+using System.Threading.Tasks;
 
 namespace SpyCamcorder
 {
@@ -24,7 +25,8 @@ namespace SpyCamcorder
         public enum RecordState
         {
             ReadyToRecord,
-            Recording
+            Recording,
+            StartingToRecord
         }
 
         public static MainPage _mainPageInstance;
@@ -169,17 +171,27 @@ namespace SpyCamcorder
 
         public void SetRecordState(RecordState state)
         {
-            switch(state)
-            {
-                case RecordState.ReadyToRecord:
-                    RecordBorder.BorderBrush = new SolidColorBrush(Colors.Green);
-                    _currentState = RecordState.ReadyToRecord;
-                    break;
-                case RecordState.Recording:
-                    RecordBorder.BorderBrush = new SolidColorBrush(Colors.Red);
-                    _currentState = RecordState.Recording;
-                    break;
-            }
+            Dispatcher.BeginInvoke(() =>
+                {
+                    switch (state)
+                    {
+                        case RecordState.ReadyToRecord:
+                            RecordBorder.BorderBrush = new SolidColorBrush(Colors.Green);
+                            //RecordButton.IsEnabled = true;
+                            _currentState = RecordState.ReadyToRecord;
+                            break;
+                        case RecordState.StartingToRecord:
+                            RecordBorder.BorderBrush = new SolidColorBrush(Colors.Yellow);
+                            //RecordButton.IsEnabled = false;
+                            _currentState = RecordState.StartingToRecord;
+                            break;
+                        case RecordState.Recording:
+                            RecordBorder.BorderBrush = new SolidColorBrush(Colors.Red);
+                            //RecordButton.IsEnabled = true;
+                            _currentState = RecordState.Recording;
+                            break;
+                    }
+                });
         }
 
 
@@ -276,7 +288,8 @@ namespace SpyCamcorder
             }
             else
             {
-                StartRecording();
+                SetRecordState(RecordState.StartingToRecord);
+                Task.Factory.StartNew(() => StartRecording());
             }
         }
 
@@ -319,7 +332,14 @@ namespace SpyCamcorder
         {
             try
             {
-                NavigationService.Navigate(new Uri("/ListOfStoredFiles.xaml", UriKind.Relative));
+                if (_currentState == RecordState.ReadyToRecord)
+                {
+                    NavigationService.Navigate(new Uri("/ListOfStoredFiles.xaml", UriKind.Relative));
+                }
+                else
+                {
+                    MessageBox.Show("You are recording!  Stop recording to view your videos.");
+                }
             }
             catch (Exception ex)
             {
@@ -331,25 +351,31 @@ namespace SpyCamcorder
         {
             try
             {
-                ChooseCamera();
+                System.Threading.Thread.Sleep(TimeSpan.FromSeconds(.05));
+                Dispatcher.BeginInvoke(() =>
+                    {
+                        ChooseCamera();
 
-                if (_captureSource.VideoCaptureDevice != null && _captureSource.State == CaptureState.Started)
-                {
-                    _captureSource.Stop();
 
-                    // Disconnect fileSink.
-                    _fileSink.CaptureSource = null;
-                    _fileSink.IsolatedStorageFileName = null;
+                        if (_captureSource.VideoCaptureDevice != null && _captureSource.State == CaptureState.Started)
+                        {
+                            _captureSource.Stop();
 
-                }
+                            // Disconnect fileSink.
+                            _fileSink.CaptureSource = null;
+                            _fileSink.IsolatedStorageFileName = null;
 
-                if (_captureSource.VideoCaptureDevice != null && _captureSource.State == CaptureState.Stopped)
-                {
-                    _fileSink.CaptureSource = _captureSource;
-                    _fileSink.IsolatedStorageFileName = GetFileName();
+                        }
 
-                    _captureSource.Start();
-                }
+                        if (_captureSource.VideoCaptureDevice != null && _captureSource.State == CaptureState.Stopped)
+                        {
+                            _fileSink.CaptureSource = _captureSource;
+                            _fileSink.IsolatedStorageFileName = GetFileName();
+
+                            _captureSource.Start();
+                        }
+                    });
+
 
                 SetRecordState(RecordState.Recording);
             }
@@ -387,7 +413,7 @@ namespace SpyCamcorder
 
         private void StopRecordClicked(object sender, EventArgs e)
         {
-            
+
         }
 
         private void SettingsClicked(object sender, EventArgs e)
@@ -447,7 +473,7 @@ namespace SpyCamcorder
             }
             catch (Exception ex)
             {
-                
+
             }
         }
 

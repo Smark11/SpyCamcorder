@@ -15,6 +15,40 @@
     
     BackKeyPress="BackButtonClicked"
     >
+    
+    <phone:PhoneApplicationPage.Resources>
+        <Style x:Key="ButtonStyle1" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PhoneForegroundBrush}"/>
+            <Setter Property="Foreground" Value="{StaticResource PhoneForegroundBrush}"/>
+            <Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilySemiBold}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMediumLarge}"/>
+            <Setter Property="Padding" Value="10,3,10,5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="Transparent">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Pressed">
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="ButtonBackground" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" CornerRadius="0" Margin="{StaticResource PhoneTouchTargetOverhang}">
+                                <ContentControl x:Name="ContentContainer" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" Foreground="{TemplateBinding Foreground}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </phone:PhoneApplicationPage.Resources>
 
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
@@ -22,33 +56,22 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-
-        <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height=".9*"/>
                 <RowDefinition Height=".1*"/>
             </Grid.RowDefinitions>
-            <!--<StackPanel>
-            <Button Height="100" Width="200" Click="RecordClicked">Start</Button>
-            <Button Height="100" Width="200" Click="StopRecordClicked">Stop</Button>
-            <Button Height="100" Width="200" Click="SkyDriveClicked">SkyDrive</Button>
-            <Button Height="100" Width="200" Click="PreviewClicked">Preview</Button>
-            <Button Height="100" Width="200" Click="ShowFilesClicked">Show Files</Button>
-            </StackPanel>-->
+
             <phone:WebBrowser x:Name="WebBrowser" Grid.Row="0"/>
 
             <StackPanel Orientation="Horizontal" Grid.Row="1">
-                <Button x:Name="RecordButton" VerticalAlignment="Center" 
+                <Button Margin="-30,0,0,0" x:Name="RecordButton" Style="{StaticResource ButtonStyle1}" VerticalAlignment="Center" 
                         Background="Transparent" BorderBrush="Transparent" Click="RecordClicked" Height="85">
-                    <Border x:Name="RecordBorder" Margin="-25,0,0,0" CornerRadius="50" BorderThickness="3,3,3,3">
-                        <!--<Border.RenderTransform>
-                            <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
-                        </Border.RenderTransform>-->
-                        <Image Source="/Icons/refresh.png"/>
+                    <Border HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="RecordBorder"  CornerRadius="50" BorderThickness="3,3,3,3">
+                        <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Icons/refresh.png"/>
                     </Border>
                 </Button>
-                <TextBox Margin="-30,0,0,0" InputScope="Url" KeyDown="WebSiteUrlKeyDown"  GotFocus="WebBrowserBoxGotFocus" x:Name="Website" Width="425" Height="75"/>
+                <TextBox Margin="-25"  InputScope="Url" KeyDown="WebSiteUrlKeyDown"  GotFocus="WebBrowserBoxGotFocus" x:Name="Website" Width="425" Height="75"/>
             </StackPanel>
             
         </Grid>
