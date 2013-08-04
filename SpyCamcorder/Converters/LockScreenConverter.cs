@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SpyCamcorder.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,11 +20,11 @@ namespace SpyCamcorder.Converters
 
                 if (conVal)
                 {
-                    returnvalue = "Lock Timeout Disabled";
+                    returnvalue = AppResources.LockDisabled;
                 }
                 else
                 {
-                    returnvalue = "Lock Timeout Enabled";
+                    returnvalue = AppResources.LockEnabled;
                 }
             }
 

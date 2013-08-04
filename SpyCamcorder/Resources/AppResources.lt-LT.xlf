@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="lt-LT" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="SpyCamcorder" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">lt-LT</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>Spy Camcorder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spy kameros</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">pridėti</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meniu elementas</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Apie</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteAllVideos" translate="yes" xml:space="preserve">
+          <source>Do you wish to delete all of your videos?  Warning:  once deleted, they can not be recovered!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ar norite naikinti visus savo vaizdo įrašus?  Įspėjimas: kai ištrinti, jie gali būti išieškota!</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteAllVideos1" translate="yes" xml:space="preserve">
+          <source>Delete All Videos</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Naikinti visus vaizdo įrašus</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction1" translate="yes" xml:space="preserve">
+          <source>Tap the settings screen to view the settings.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bakstelėkite ekrano parametrus Norėdami peržiūrėti parametrus.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction2" translate="yes" xml:space="preserve">
+          <source>Select either the front or rear camera.  You may also turn the auto lock screen off here.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pasirinkite priekinės arba galinės kameros.  Jūs galite taip pat įjungti automatinio užrakto ekrano ne čia.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction3" translate="yes" xml:space="preserve">
+          <source>When the light is green, the application is ready to record a video.  To begin recording, tap the refresh button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kai šviesa yra žalia, taikymas yra pasiruošę filmuoti.  Norėdami pradėti įrašymą, bakstelėkite mygtuką atnaujinti.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction4" translate="yes" xml:space="preserve">
+          <source>When the refresh button is yellow, the video is beginning to record.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kai mygtuką atnaujinti yra geltona, vaizdo pradeda įrašyti.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction5" translate="yes" xml:space="preserve">
+          <source>When the video is recording, the button is red.  To stop the recording, tap the red button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vaizdo įrašymo, mygtukas yra raudona.  Jei norite baigti filmuoti, bakstelėkite raudoną mygtuką.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction6" translate="yes" xml:space="preserve">
+          <source>To review your videos, tap the videos button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Norėdami peržiūrėti savo vaizdo įrašus, bakstelėkite mygtuką vaizdo.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction7" translate="yes" xml:space="preserve">
+          <source>Press play to play the video, and delete to delete the video.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Paspauskite žaisti, žaisti vaizdo, ir naikinti būtų panaikinti vaizdo.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction8" translate="yes" xml:space="preserve">
+          <source>From here, you can stop, replay, pause, and upload the video to skydrive.  Please note you must be connected to wifi to upload a video.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Iš čia galite sustabdyti, pakartoti, pristabdyti ir įkelti vaizdo įrašą į "SkyDrive".  Atkreipkite dėmesį, jums turi būti prijungtas prie wifi įkelti vaizdo įrašą.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction9" translate="yes" xml:space="preserve">
+          <source>To delete all of your videos from your phone, tap the delete all videos button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Naikinti visus savo vaizdo įrašus iš savo telefono, bakstelėkite Naikinti visus vaizdo įrašus mygtuką.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Instrukcijos</target>
+        </trans-unit>
+        <trans-unit id="Resx/MoreAps" translate="yes" xml:space="preserve">
+          <source>More Apps from KLBCREATIONS</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Daugiau Apps nuo KLBCREATIONS</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rate" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Norma</target>
+        </trans-unit>
+        <trans-unit id="Resx/Settings" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Parametrai</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step1" translate="yes" xml:space="preserve">
+          <source>Step 1:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">1 Žingsnis:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step2" translate="yes" xml:space="preserve">
+          <source>Step 2:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">2 Veiksmas:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step3" translate="yes" xml:space="preserve">
+          <source>Step 3:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">3 Veiksmas:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step4" translate="yes" xml:space="preserve">
+          <source>Step 4:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">4 Žingsnis:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step5" translate="yes" xml:space="preserve">
+          <source>Step 5:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">5 Žingsnis:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step6" translate="yes" xml:space="preserve">
+          <source>Step 6:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">6 Žingsnis:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step7" translate="yes" xml:space="preserve">
+          <source>Step 7:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">7 Veiksmas:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step8" translate="yes" xml:space="preserve">
+          <source>Step 8:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">8 Veiksmas:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step9" translate="yes" xml:space="preserve">
+          <source>Step 9:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">9 Etapas:</target>
+        </trans-unit>
+        <trans-unit id="Resx/StopRecording" translate="yes" xml:space="preserve">
+          <source>You are recording!  Stop recording to view your videos.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūs įrašinėjate!  Stabdyti įrašymą į Rodyti savo vaizdo įrašus.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Test1" translate="yes" xml:space="preserve">
+          <source>Test</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bandymas</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired.  Please support the developers, and purchase this application!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūsų bandomasis pasibaigęs.  Prašome paremti kūrėjai, ir įsigyti šią paraišką!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft1" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūs turite </target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft2" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.  To Extend your trial from 3 days to 10 Days, Rate this app 5 stars, and leave a positive comment.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> dienas likusias savo teismą.  Išplėsti savo bandomąją nuo 3 dienų iki 10 dienos, palūkanų normos šią app 5 žvaigždžių, ir teigiamas pakomentuoti.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft3" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pratęsti tyrimo?</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft4" translate="yes" xml:space="preserve">
+          <source>days remaining in your trial.  Do you wish to purchase the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">dienas likusias savo teismą.  Ar norite įsigyti?</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft5" translate="yes" xml:space="preserve">
+          <source>Purchase?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pirkti?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Videos" translate="yes" xml:space="preserve">
+          <source>Videos</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vaizdo įrašai</target>
+        </trans-unit>
+        <trans-unit id="Resx/Author" translate="yes" xml:space="preserve">
+          <source>KLBCreations</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">KLBCreations</target>
+        </trans-unit>
+        <trans-unit id="Resx/Delete" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Naikinti</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pause" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pauzė</target>
+        </trans-unit>
+        <trans-unit id="Resx/Play" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaisti</target>
+        </trans-unit>
+        <trans-unit id="Resx/SkyDrive" translate="yes" xml:space="preserve">
+          <source>SkyDrive</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">"SkyDrive"</target>
+        </trans-unit>
+        <trans-unit id="Resx/Stop" translate="yes" xml:space="preserve">
+          <source>Stop</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">sustoti, sustok</target>
+        </trans-unit>
+        <trans-unit id="Resx/Support" translate="yes" xml:space="preserve">
+          <source>KlbCreations01@yahoo.com</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">KlbCreations01@yahoo.com</target>
+        </trans-unit>
+        <trans-unit id="Resx/VersionString" translate="yes" xml:space="preserve">
+          <source>Version 1.0</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Versija 1.0</target>
+        </trans-unit>
+        <trans-unit id="Resx/Back" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Atgal</target>
+        </trans-unit>
+        <trans-unit id="Resx/Front" translate="yes" xml:space="preserve">
+          <source>Front</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Priekyje</target>
+        </trans-unit>
+        <trans-unit id="Resx/LockDisabled" translate="yes" xml:space="preserve">
+          <source>Lock Timeout Disabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Užraktas skirtas laikas neįgaliesiems</target>
+        </trans-unit>
+        <trans-unit id="Resx/LockEnabled" translate="yes" xml:space="preserve">
+          <source>Lock Timeout Enabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Įjungtas užraktas skirtasis laikas</target>
+        </trans-unit>
+        <trans-unit id="Resx/zDescription" translate="yes" xml:space="preserve">
+          <source>Try Free Today!!
+
+This application is allows you to take discreet videos while browsing the web.
+
+A user can:
+
+* Record a Video
+* Review the Video
+* Upload the Video to SkyDrive when using Wifi
+* Delete all videos
+* Toggle Front Camera or Rear Camera
+
+KLBCreations is NOT responsible for mis-use of this application.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Išbandykite nemokamai šiandien!
+
+Ši programa yra leidžia atlikti diskretišką vaizdo naršydami internete.
+
+Vartotojas gali:
+
+* Įrašykite vaizdo įrašą
+* Peržiūrėti vaizdo
+* Įkelti vaizdo įrašą į "SkyDrive" naudodami Wifi
+* Panaikinti visus vaizdo įrašus
+* Perjungti priekinė kamera arba galinė kamera
+
+KLBCreations nėra atsakingas už mis-use šios taikomosios programos.</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord1" translate="yes" xml:space="preserve">
+          <source>Camcorder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vaizdo kamera</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord2" translate="yes" xml:space="preserve">
+          <source>Video</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Video</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord3" translate="yes" xml:space="preserve">
+          <source>Spy Camcorder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spy kameros</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord4" translate="yes" xml:space="preserve">
+          <source>SpyCam</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">SpyCam</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord5" translate="yes" xml:space="preserve">
+          <source>Stealth Video</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stealth Video</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

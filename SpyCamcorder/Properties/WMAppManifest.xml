@@ -1,6 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
+  <Languages xmlns="">
+    <Language code="ar" />
+    <Language code="bg-BG" />
+    <Language code="ca-ES" />
+    <Language code="cs-CZ" />
+    <Language code="da-DK" />
+    <Language code="de" />
+    <Language code="el-GR" />
+    <Language code="en" />
+    <Language code="es" />
+    <Language code="et-EE" />
+    <Language code="fi-FI" />
+    <Language code="fr" />
+    <Language code="he-IL" />
+    <Language code="hi-IN" />
+    <Language code="hu-HU" />
+    <Language code="id-ID" />
+    <Language code="it" />
+    <Language code="ja-JP" />
+    <Language code="ko-KR" />
+    <Language code="lt-LT" />
+    <Language code="lv-LV" />
+    <Language code="nb-NO" />
+    <Language code="nl" />
+    <Language code="pl-PL" />
+    <Language code="pt" />
+    <Language code="qps-ploc" />
+    <Language code="ro-RO" />
+    <Language code="ru-RU" />
+    <Language code="sk-SK" />
+    <Language code="sl-SI" />
+    <Language code="sv" />
+    <Language code="th-TH" />
+    <Language code="tr-TR" />
+    <Language code="uk-UA" />
+    <Language code="vi-VN" />
+    <Language code="zh-Hans" />
+    <Language code="zh-Hant" />
+  </Languages>
   <App xmlns="" ProductID="{0fe6e024-04a1-4f70-b3f3-bc5f2117f103}" Title="SpyCamcorder" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="SpyCamcorder author" Description="Sample description" Publisher="SpyCamcorder" PublisherID="{b18bf3d2-3a6b-4392-a0cb-f263d147e8fc}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
@@ -22,16 +61,11 @@
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
           <Title>SpyCamcorder</Title>
-          <BackContent>
-          </BackContent>
-          <BackBackgroundImageURI>
-          </BackBackgroundImageURI>
-          <BackTitle>
-          </BackTitle>
-          <DeviceLockImageURI>
-          </DeviceLockImageURI>
-          <HasLarge>
-          </HasLarge>
+          <BackContent></BackContent>
+          <BackBackgroundImageURI></BackBackgroundImageURI>
+          <BackTitle></BackTitle>
+          <DeviceLockImageURI></DeviceLockImageURI>
+          <HasLarge></HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>

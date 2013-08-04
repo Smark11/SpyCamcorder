@@ -42,25 +42,25 @@
                 <Button Click="StopHandler">
                     <StackPanel>
                     <Image Height="50" Width="50" Source="/Icons/stop.png"/>
-                        <TextBlock HorizontalAlignment="Center" FontSize="12" Text="Stop"/>
+                        <TextBlock HorizontalAlignment="Center" FontSize="12" Text="{Binding Path=LocalizedResources.Stop, Source={StaticResource LocalizedStrings}}"/>
                     </StackPanel>
                 </Button>
                 <Button Click="PlayHandler">
                     <StackPanel>
                         <Image Height="50" Width="50" Source="/Icons/transport.play.png"/>
-                        <TextBlock HorizontalAlignment="Center" FontSize="12" Text="Play"/>
+                        <TextBlock HorizontalAlignment="Center" FontSize="12" Text="{Binding Path=LocalizedResources.Play, Source={StaticResource LocalizedStrings}}"/>
                     </StackPanel>
                 </Button>
                 <Button Click="PauseHandler">
                     <StackPanel>
                     <Image Height="50" Width="50" Source="/Icons/transport.pause.png"/>
-                        <TextBlock HorizontalAlignment="Center" FontSize="12" Text="Pause"/>
+                        <TextBlock HorizontalAlignment="Center" FontSize="12" Text="{Binding Path=LocalizedResources.Pause, Source={StaticResource LocalizedStrings}}"/>
                     </StackPanel>
                 </Button>
                 <Button Click="SkyDriveHandler">
                     <StackPanel>
                         <Image Height="50" Width="50" Source="/Icons/share.png"/>
-                        <TextBlock HorizontalAlignment="Center" FontSize="12" Text="SkyDrive"/>
+                        <TextBlock HorizontalAlignment="Center" FontSize="12" Text="{Binding Path=LocalizedResources.SkyDrive, Source={StaticResource LocalizedStrings}}"/>
                     </StackPanel>
                 </Button>
             </StackPanel>

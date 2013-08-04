@@ -55,18 +55,69 @@ namespace SpyCamcorder
                 InitializeComponent();
                 AppSettings.Initialize();
 
+                BuildAppBar(AppSettings.IsAppRated);
+
                 GoToWebsite();
 
                 // Sample code to localize the ApplicationBar
                 //BuildLocalizedApplicationBar();
                 InitalizeVideoRecorder();
 
-                IsAppTrialOrBought();
+                IsAppTrialOrBought(false);
             }
             catch (Exception ex)
             {
 
             }
+        }
+
+        private void BuildAppBar(bool appHasBeenRated)
+        {
+            // Set the page's ApplicationBar to a new instance of ApplicationBar.
+            ApplicationBar = new ApplicationBar();
+
+            ApplicationBar.Mode = ApplicationBarMode.Minimized;
+            ApplicationBar.Opacity = 1.0;
+            ApplicationBar.IsVisible = true;
+            ApplicationBar.IsMenuEnabled = true;
+
+            // Settings
+            ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri("/Assets/AppBar/feature.settings.png", UriKind.Relative));
+            appBarButton.Text = AppResources.Settings;
+            ApplicationBar.Buttons.Add(appBarButton);
+            appBarButton.Click += new EventHandler(SettingsClicked);
+
+            //Videos
+            ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/AppBar/folder.png", UriKind.Relative));
+            appBarButton2.Text = AppResources.Videos;
+            ApplicationBar.Buttons.Add(appBarButton2);
+            appBarButton2.Click += new EventHandler(ShowFilesClicked);
+
+            //Rate
+            if (!appHasBeenRated)
+            {
+                ApplicationBarIconButton appBarButton3 = new ApplicationBarIconButton(new Uri("/Assets/AppBar/favs.png", UriKind.Relative));
+                appBarButton3.Text = AppResources.Rate;
+                ApplicationBar.Buttons.Add(appBarButton3);
+                appBarButton3.Click += new EventHandler(ReviewClicked);
+            }
+
+            // Create a new menu item with the localized string from AppResources.
+            ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.MoreAps);
+            ApplicationBar.MenuItems.Add(appBarMenuItem);
+            appBarMenuItem.Click += new EventHandler(MoreApplicationsClicked);
+
+            ApplicationBarMenuItem appBarMenuItem2 = new ApplicationBarMenuItem(AppResources.DeleteAllVideos1);
+            ApplicationBar.MenuItems.Add(appBarMenuItem2);
+            appBarMenuItem2.Click += new EventHandler(CleanStorageClicked);
+
+            ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.Instructions);
+            ApplicationBar.MenuItems.Add(appBarMenuItem4);
+            appBarMenuItem4.Click += new EventHandler(InstructionsClicked);
+
+            ApplicationBarMenuItem appBarMenuItem5 = new ApplicationBarMenuItem(AppResources.About);
+            ApplicationBar.MenuItems.Add(appBarMenuItem5);
+            appBarMenuItem5.Click += new EventHandler(AboutClicked);
         }
 
         private void GoToWebsite()
@@ -83,7 +134,7 @@ namespace SpyCamcorder
             }
         }
 
-        public void IsAppTrialOrBought()
+        public void IsAppTrialOrBought(bool reactivated)
         {
             try
             {
@@ -93,7 +144,7 @@ namespace SpyCamcorder
 
                     if (Trial.IsTrialExpired())
                     {
-                        MessageBox.Show("Your trial has expired.  Please support the developers, and purchase this application!");
+                        MessageBox.Show(AppResources.TrialExpired);
                         RecordButton.IsEnabled = false;
                         MarketplaceDetailTask task = new MarketplaceDetailTask();
                         task.Show();
@@ -103,19 +154,34 @@ namespace SpyCamcorder
                     {
                         if (AppSettings.IsSecondTimeOpen && !AppSettings.IsAppRated)
                         {
-                            MessageBoxResult msgResult;
-                            msgResult = MessageBox.Show("You have " + Trial.GetDaysLeftInTrial() + " days remaining in your trial.  To Extend your trial from 3 days to 10 Days, Rate this app 5 stars, and leave a positive comment. ", "Extend Trial?", MessageBoxButton.OKCancel);
-                            if (msgResult == MessageBoxResult.OK)
+                            if (!reactivated)
                             {
-                                Trial.Add10DaysToTrial();
-                                AppSettings.SetAppAsRated();
-                                MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-                                marketplaceReviewTask.Show();
+                                MessageBoxResult msgResult;
+                                msgResult = MessageBox.Show(AppResources.TrialLeft1 + Trial.GetDaysLeftInTrial() + AppResources.TrialLeft2, AppResources.TrialLeft3, MessageBoxButton.OKCancel);
+                                if (msgResult == MessageBoxResult.OK)
+                                {
+                                    Trial.Add10DaysToTrial();
+                                    AppSettings.SetAppAsRated();
+                                    MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                                    marketplaceReviewTask.Show();
+                                }
                             }
                         }
                         else
                         {
-                            MessageBox.Show("You have " + Trial.GetDaysLeftInTrial() + " days remaining in your trial.");
+                            if (!reactivated)
+                            {
+                                MessageBoxResult msgResult;
+
+                                msgResult = MessageBox.Show(AppResources.TrialLeft1 + Trial.GetDaysLeftInTrial() + AppResources.TrialLeft4, AppResources.TrialLeft5, MessageBoxButton.OKCancel);
+
+                                if (msgResult == MessageBoxResult.OK)
+                                {
+                                    AppSettings.SetAppAsRated();
+                                    MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                                    marketplaceReviewTask.Show();
+                                }
+                            }
                         }
                         InitializeAppForTrialOrActivated(true);
                     }
@@ -193,7 +259,6 @@ namespace SpyCamcorder
                     }
                 });
         }
-
 
         private void ChooseCamera()
         {
@@ -305,6 +370,18 @@ namespace SpyCamcorder
             }
         }
 
+        private void InstructionsClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                NavigationService.Navigate(new Uri("/Instructions.xaml", UriKind.Relative));
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
         private void NavigateWebBrowserClicked(object sender, RoutedEventArgs e)
         {
             NavigateToWebPage();
@@ -338,7 +415,7 @@ namespace SpyCamcorder
                 }
                 else
                 {
-                    MessageBox.Show("You are recording!  Stop recording to view your videos.");
+                    MessageBox.Show(AppResources.StopRecording);
                 }
             }
             catch (Exception ex)
@@ -481,7 +558,7 @@ namespace SpyCamcorder
         {
             MessageBoxResult rslt;
 
-            rslt = MessageBox.Show("Do you wish to delete all of your videos?  Warning:  once deleted, they can not be recovered!", "Delete all Videos", MessageBoxButton.OK);
+            rslt = MessageBox.Show(AppResources.DeleteAllVideos, AppResources.DeleteAllVideos1, MessageBoxButton.OKCancel);
 
             if (rslt == MessageBoxResult.OK)
             {

@@ -78,17 +78,18 @@
 
     </Grid>
 
-    <phone:PhoneApplicationPage.ApplicationBar>
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar x:Name="NavBar"  Mode="Minimized" >
             <shell:ApplicationBar.MenuItems>
                 <shell:ApplicationBarMenuItem x:Name="MoreAppsButton" Click="MoreApplicationsClicked" Text="More Apps by KLBCreations"/>
                 <shell:ApplicationBarMenuItem x:Name="DeleteAllVideos" Click="CleanStorageClicked" Text="Delete All Videos"/>
+                <shell:ApplicationBarMenuItem x:Name="Instructions" Click="InstructionsClicked" Text="Instructions"/>
                 <shell:ApplicationBarMenuItem x:Name="About" Click="AboutClicked" Text="about"/>
             </shell:ApplicationBar.MenuItems>
             <shell:ApplicationBarIconButton Click="SettingsClicked" IconUri="/Assets/AppBar/feature.settings.png" Text="Settings"/>
             <shell:ApplicationBarIconButton Click="ShowFilesClicked" IconUri="/Assets/AppBar/folder.png" Text="Videos"/>
             <shell:ApplicationBarIconButton Click="ReviewClicked" IconUri="/Assets/AppBar/favs.png" Text="Rate"/>
         </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
 
 </phone:PhoneApplicationPage>

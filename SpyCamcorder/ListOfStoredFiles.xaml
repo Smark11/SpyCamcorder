@@ -22,13 +22,13 @@
                     <Button Click="PlayClicked" Margin="10,0,0,0">
                         <StackPanel>
                             <Image Height="50" Width="50" Source="/Icons/transport.play.png"/>
-                            <TextBlock HorizontalAlignment="Center" FontSize="12" Text="Play"/>
+                            <TextBlock HorizontalAlignment="Center" FontSize="12" Text="{Binding Path=LocalizedResources.Play, Source={StaticResource LocalizedStrings}}"/>
                         </StackPanel>
                     </Button>
                     <Button Click="DeleteClicked" Margin="10,0,0,0">
                         <StackPanel>
                             <Image Height="50" Width="50" Source="/Icons/stop.png"/>
-                            <TextBlock HorizontalAlignment="Center" FontSize="12" Text="Delete"/>
+                            <TextBlock HorizontalAlignment="Center" FontSize="12" Text="{Binding Path=LocalizedResources.Delete, Source={StaticResource LocalizedStrings}}"/>
                         </StackPanel>
                     </Button>
                 </StackPanel>
@@ -36,6 +36,8 @@
             </Border>
         </DataTemplate>
     </phone:PhoneApplicationPage.Resources>
+    
+    <Viewbox>
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
@@ -53,5 +55,6 @@
             <ListBox  ItemTemplate="{StaticResource FileTemplate}" FontSize="30" ItemsSource="{Binding Files}"/>
         </Grid>
     </Grid>
+    </Viewbox>
 
 </phone:PhoneApplicationPage>

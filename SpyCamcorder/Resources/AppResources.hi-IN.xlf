@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="hi-IN" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="SpyCamcorder" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">hi-IN</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>Spy Camcorder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">जासूस Camcorder</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">जोड़ें</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">मेनू आइटम</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">के बारे में</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteAllVideos" translate="yes" xml:space="preserve">
+          <source>Do you wish to delete all of your videos?  Warning:  once deleted, they can not be recovered!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">क्या आप अपने वीडियो के सभी को हटाना चाहते हैं?  चेतावनी: एक बार नष्ट कर दिया, वे बरामद किया जा सकता नहीं!</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteAllVideos1" translate="yes" xml:space="preserve">
+          <source>Delete All Videos</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">सभी वीडियो को हटाना</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction1" translate="yes" xml:space="preserve">
+          <source>Tap the settings screen to view the settings.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">सेटिंग्स स्क्रीन सेटिंग्स को देखने के लिए टैप करें।</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction2" translate="yes" xml:space="preserve">
+          <source>Select either the front or rear camera.  You may also turn the auto lock screen off here.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">या तो सामने या पीछे कैमरा का चयन करें।  तुम भी ऑटो ताला स्क्रीन बंद यहाँ बारी कर सकते हैं।</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction3" translate="yes" xml:space="preserve">
+          <source>When the light is green, the application is ready to record a video.  To begin recording, tap the refresh button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">जब प्रकाश हरा है, आवेदन एक वीडियो रिकॉर्ड करने के लिए तैयार है।  रिकॉर्डिंग शुरू करने के लिए, ताज़ा करें बटन नल।</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction4" translate="yes" xml:space="preserve">
+          <source>When the refresh button is yellow, the video is beginning to record.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">जब ताज़ा करें बटन पीला है, वीडियो रिकॉर्ड करने के लिए शुरुआत है।</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction5" translate="yes" xml:space="preserve">
+          <source>When the video is recording, the button is red.  To stop the recording, tap the red button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">जब वीडियो रिकॉर्डिंग है, बटन लाल है।  िरकॉिडर्ंग बंद करने के लिए, लाल बटन नल।</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction6" translate="yes" xml:space="preserve">
+          <source>To review your videos, tap the videos button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">आपके वीडियो की समीक्षा करने के लिए, वीडियो बटन नल।</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction7" translate="yes" xml:space="preserve">
+          <source>Press play to play the video, and delete to delete the video.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">प्रेस खेलने के लिए प्ले वीडियो, और वीडियो हटाने के लिए हटाएँ।</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction8" translate="yes" xml:space="preserve">
+          <source>From here, you can stop, replay, pause, and upload the video to skydrive.  Please note you must be connected to wifi to upload a video.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">यहाँ से, आप कर सकते हैं बंद करो, फिर से खेलना, विराम दें, और वीडियो अपलोड करने के लिए skydrive.  कृपया ध्यान दें आप वाईफ़ाई के लिए एक वीडियो अपलोड करने के लिए कनेक्ट होना चाहिए।</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction9" translate="yes" xml:space="preserve">
+          <source>To delete all of your videos from your phone, tap the delete all videos button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">अपने वीडियो के सभी से अपने फोन को नष्ट करने के लिए, हटाएँ सभी वीडियो बटन नल।</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">निर्देश</target>
+        </trans-unit>
+        <trans-unit id="Resx/MoreAps" translate="yes" xml:space="preserve">
+          <source>More Apps from KLBCREATIONS</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">KLBCREATIONS से अधिक Apps</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rate" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">दर</target>
+        </trans-unit>
+        <trans-unit id="Resx/Settings" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">सेटिंग्स</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step1" translate="yes" xml:space="preserve">
+          <source>Step 1:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">चरण 1:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step2" translate="yes" xml:space="preserve">
+          <source>Step 2:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">चरण 2:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step3" translate="yes" xml:space="preserve">
+          <source>Step 3:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">चरण 3:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step4" translate="yes" xml:space="preserve">
+          <source>Step 4:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">चरण 4:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step5" translate="yes" xml:space="preserve">
+          <source>Step 5:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">चरण 5:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step6" translate="yes" xml:space="preserve">
+          <source>Step 6:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">चरण 6:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step7" translate="yes" xml:space="preserve">
+          <source>Step 7:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">चरण 7:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step8" translate="yes" xml:space="preserve">
+          <source>Step 8:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">चरण 8:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step9" translate="yes" xml:space="preserve">
+          <source>Step 9:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">9 कदम:</target>
+        </trans-unit>
+        <trans-unit id="Resx/StopRecording" translate="yes" xml:space="preserve">
+          <source>You are recording!  Stop recording to view your videos.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">आप रिकॉर्डिंग कर रहे हैं!  अपने वीडियो को देखने के लिए रिकॉर्डिंग बंद करो।</target>
+        </trans-unit>
+        <trans-unit id="Resx/Test1" translate="yes" xml:space="preserve">
+          <source>Test</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">परीक्षण</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired.  Please support the developers, and purchase this application!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">अपने परीक्षण समाप्त हो गया है।  कृपया डेवलपर्स का समर्थन है, और इस आवेदन खरीद!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft1" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">आप है </target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft2" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.  To Extend your trial from 3 days to 10 Days, Rate this app 5 stars, and leave a positive comment.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> दिनों में अपने परीक्षण शेष।  10 दिनों के लिए 3 दिनों से अपने परीक्षण का विस्तार करने के लिए, इस app 5 सितारे दें, और एक सकारात्मक टिप्पणी छोड़ दें।</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft3" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">परीक्षण का विस्तार?</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft4" translate="yes" xml:space="preserve">
+          <source>days remaining in your trial.  Do you wish to purchase the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">दिनों में अपने परीक्षण शेष।  क्या आप अनुप्रयोग खरीद करने के लिए चाहते हैं?</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft5" translate="yes" xml:space="preserve">
+          <source>Purchase?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">खरीद?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Videos" translate="yes" xml:space="preserve">
+          <source>Videos</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">वीडियो</target>
+        </trans-unit>
+        <trans-unit id="Resx/Author" translate="yes" xml:space="preserve">
+          <source>KLBCreations</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">KLBCreations</target>
+        </trans-unit>
+        <trans-unit id="Resx/Delete" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">हटाएँ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pause" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">विराम दें</target>
+        </trans-unit>
+        <trans-unit id="Resx/Play" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">प्ले</target>
+        </trans-unit>
+        <trans-unit id="Resx/SkyDrive" translate="yes" xml:space="preserve">
+          <source>SkyDrive</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">SkyDrive</target>
+        </trans-unit>
+        <trans-unit id="Resx/Stop" translate="yes" xml:space="preserve">
+          <source>Stop</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">रुको</target>
+        </trans-unit>
+        <trans-unit id="Resx/Support" translate="yes" xml:space="preserve">
+          <source>KlbCreations01@yahoo.com</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">KlbCreations01@yahoo.com</target>
+        </trans-unit>
+        <trans-unit id="Resx/VersionString" translate="yes" xml:space="preserve">
+          <source>Version 1.0</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">संस्करण 1.0</target>
+        </trans-unit>
+        <trans-unit id="Resx/Back" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">पीठ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Front" translate="yes" xml:space="preserve">
+          <source>Front</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">सामने</target>
+        </trans-unit>
+        <trans-unit id="Resx/LockDisabled" translate="yes" xml:space="preserve">
+          <source>Lock Timeout Disabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ताला टाइमआउट अक्षम</target>
+        </trans-unit>
+        <trans-unit id="Resx/LockEnabled" translate="yes" xml:space="preserve">
+          <source>Lock Timeout Enabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">सक्षम ताला टाइमआउट</target>
+        </trans-unit>
+        <trans-unit id="Resx/zDescription" translate="yes" xml:space="preserve">
+          <source>Try Free Today!!
+
+This application is allows you to take discreet videos while browsing the web.
+
+A user can:
+
+* Record a Video
+* Review the Video
+* Upload the Video to SkyDrive when using Wifi
+* Delete all videos
+* Toggle Front Camera or Rear Camera
+
+KLBCreations is NOT responsible for mis-use of this application.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">नि: शुल्क आज की कोशिश करो!
+
+इस अनुप्रयोग है आप वेब ब्राउज़ करते समय विचारशील वीडियो लेने के लिए अनुमति देता है।
+
+एक उपयोगकर्ता कर सकते हैं:
+
+* एक वीडियो रिकॉर्ड
+* वीडियो की समीक्षा
+* वीडियो के लिए SkyDrive वाईफ़ाई का उपयोग कर जब अपलोड
+* सभी वीडियो को हटाना
+* कैमरे के सामने या पीछे कैमरा टॉगल करें
+
+KLBCreations नहीं है इस आवेदन की mis-use के लिए जिम्मेदार है।</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord1" translate="yes" xml:space="preserve">
+          <source>Camcorder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Camcorder</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord2" translate="yes" xml:space="preserve">
+          <source>Video</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">वीडियो</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord3" translate="yes" xml:space="preserve">
+          <source>Spy Camcorder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">जासूस Camcorder</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord4" translate="yes" xml:space="preserve">
+          <source>SpyCam</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">SpyCam</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord5" translate="yes" xml:space="preserve">
+          <source>Stealth Video</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">चुपके वीडियो</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -25,9 +25,9 @@
             <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}"
                        Margin="9,-7,0,20" Style="{StaticResource PhoneTextTitle1Style}"/>
 
-            <TextBlock Text="{Binding Author}" />
-            <TextBlock Text="{Binding VersionString}" />
-            <TextBlock Text="{Binding Support}" />
+            <TextBlock Text="{Binding Path=LocalizedResources.Author, Source={StaticResource LocalizedStrings}}" />
+            <TextBlock Text="{Binding Path=LocalizedResources.VersionString, Source={StaticResource LocalizedStrings}}" />
+            <TextBlock Text="{Binding Path=LocalizedResources.Support, Source={StaticResource LocalizedStrings}}" />
 
 
         </StackPanel>

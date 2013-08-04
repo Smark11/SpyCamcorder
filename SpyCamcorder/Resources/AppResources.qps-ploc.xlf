@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="qps-ploc" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="SpyCamcorder" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">qps-ploc</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>Spy Camcorder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[30149][!!_Šрÿ Ċâмćõřďéŕ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7F37D][!!_áđð_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CE46E][!!_Μęиù Îтém_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CE6DA][!!_Áъõµт_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteAllVideos" translate="yes" xml:space="preserve">
+          <source>Do you wish to delete all of your videos?  Warning:  once deleted, they can not be recovered!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4FB98][!!_Ðõ ýóû ẃîşћ ťó ďéłèţê âļļ òƒ ўòúř νíđèôş?  Ẃáŕηîηġ:  õηĉè đêļêťęð, τĥèÿ ĉãй ήõţ ъê ŕéċóνęŕęð!_!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteAllVideos1" translate="yes" xml:space="preserve">
+          <source>Delete All Videos</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D83F0][!!_Đéľèтè Áłĺ Vįðèôš_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction1" translate="yes" xml:space="preserve">
+          <source>Tap the settings screen to view the settings.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C4559][!!_Ţàþ ťђê ŝêťτìήĝš śĉŗęêή ťô νįèẅ ťħę ŝéттîηĝŝ._!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction2" translate="yes" xml:space="preserve">
+          <source>Select either the front or rear camera.  You may also turn the auto lock screen off here.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E15CC][!!_Šèĺèċť ęįţħèř ţћê ƒŗóηт ôѓ řęàř ćáмéѓà.  Ŷôû màУ áļşõ ťûŗй ťђę ãµτó ľóĉĸ ščŗêèή òƒƒ ћęŕé._!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction3" translate="yes" xml:space="preserve">
+          <source>When the light is green, the application is ready to record a video.  To begin recording, tap the refresh button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FA2E7][!!_Ẅћéи ťħé ľįģћт įś ġŗęèи, ťнê ãþþļìćàтįòи ìš řęáđÿ ťõ ŗèčòѓð à νîðèõ.  Τõ ьèğíη ŗéċôѓðìήğ, ţáþ тћé ѓęƒřèšĥ Бúťтòη._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction4" translate="yes" xml:space="preserve">
+          <source>When the refresh button is yellow, the video is beginning to record.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[44D68][!!_Ẅћêй τћę ѓęƒŗęśђ ъµťтôή įś ÿèļľóŵ, ťђę νîðêô ìś ьęĝîηηíήğ τò ѓęċóřð._!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction5" translate="yes" xml:space="preserve">
+          <source>When the video is recording, the button is red.  To stop the recording, tap the red button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C17ED][!!_Ẅнèή ţђè νíðéô îš ѓêċõŗðîиğ, ţђê Бùτтòή ìš ѓęď.  Ťô śτòр тĥè ѓęčõѓðîηģ, ţãр тнé ѓèð Бµťţõή._!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction6" translate="yes" xml:space="preserve">
+          <source>To review your videos, tap the videos button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C5EE2][!!_Τô řéνìéẃ ŷòúѓ νìðęõš, ţáρ τħê νíðęôŝ ьµţτòη._!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction7" translate="yes" xml:space="preserve">
+          <source>Press play to play the video, and delete to delete the video.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[21DE7][!!_Þŗéśŝ þłãУ ţò þĺâŷ тħê νîđêó, âйð ďèļęťè ťõ đêłęтè τħê νìďéô._!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction8" translate="yes" xml:space="preserve">
+          <source>From here, you can stop, replay, pause, and upload the video to skydrive.  Please note you must be connected to wifi to upload a video.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FF99A][!!_₣řôм нêřę, Уôû čãη ŝţôþ, ѓéрļáў, рâûśê, ãηđ ûþľõâð ţђę νìďéó τó ŝќÿðŗįνé.  Þĺèàśę иòτę ўòù мûśτ ьé ċòйиêčťèđ τõ ŵìƒį тò úρĺôàð à νìđêó._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instruction9" translate="yes" xml:space="preserve">
+          <source>To delete all of your videos from your phone, tap the delete all videos button.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[415E5][!!_Ťò ďêłęτè âłł ôƒ Уóùŗ νįđèôş ƒřòм ŷõµř þĥôиè, ţàр τħè ðéļêťę ãĺĺ νîďęôŝ Бúťтóη._!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CE4E5][!!_Įйšţŕùċтìôηš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MoreAps" translate="yes" xml:space="preserve">
+          <source>More Apps from KLBCREATIONS</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E4AD4][!!_Мóřé Âρþš ƒřòм ΚĿЬĈЃÉÃΤĮÕŃŞ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rate" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1AFE4][!!_Řáţè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Settings" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1B0C7][!!_Śéţťíήġş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step1" translate="yes" xml:space="preserve">
+          <source>Step 1:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A18D9][!!_Ŝţêр 1:_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step2" translate="yes" xml:space="preserve">
+          <source>Step 2:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DB588][!!_Śтęр 2:_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step3" translate="yes" xml:space="preserve">
+          <source>Step 3:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[47FC8][!!_Šτèþ 3:_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step4" translate="yes" xml:space="preserve">
+          <source>Step 4:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1607B][!!_Şτêþ 4:_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step5" translate="yes" xml:space="preserve">
+          <source>Step 5:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1E661][!!_Ŝтéþ 5:_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step6" translate="yes" xml:space="preserve">
+          <source>Step 6:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[12746][!!_Śţéþ 6:_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step7" translate="yes" xml:space="preserve">
+          <source>Step 7:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[51088][!!_Şτêþ 7:_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step8" translate="yes" xml:space="preserve">
+          <source>Step 8:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[019C1][!!_Śťéþ 8:_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step9" translate="yes" xml:space="preserve">
+          <source>Step 9:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[524E1][!!_Ŝτéр 9:_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/StopRecording" translate="yes" xml:space="preserve">
+          <source>You are recording!  Stop recording to view your videos.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[71403][!!_Ϋóù ãѓé ѓèĉõřðįйĝ!  Şтóρ ŕèčóѓđìиĝ ťõ νíèẅ ўòûѓ νîđêóš._!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Test1" translate="yes" xml:space="preserve">
+          <source>Test</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[40D86][!!_Τéŝτ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired.  Please support the developers, and purchase this application!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[07785][!!_Ўõµѓ ťŗíàļ ħãŝ èхþîřêð.  Þľèãšê şùþрòřт тĥę đęνéłòþèŕš, àηď ρùŗĉĥâšè ťħįś àρρłíćãтįõи!_!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft1" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4284B][!!_Ўõû нãνê _!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft2" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.  To Extend your trial from 3 days to 10 Days, Rate this app 5 stars, and leave a positive comment.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FF771][!!_ ðáŷş řémâîηíйġ îй ýòúř ţŗíàł.  Ťõ Ęхţéηð ўôûŕ ţŕîâł ƒѓòm 3 ðàŷŝ ţô 10 Ðàýš, Ŕàţé ťĥíş âрр 5 ŝτâѓŝ, âήď łêáνè à þõŝìţìνè ċômмêйτ._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft3" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[73383][!!_Ê×ťéйđ Τŕìâľ?_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft4" translate="yes" xml:space="preserve">
+          <source>days remaining in your trial.  Do you wish to purchase the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[24C21][!!_đáУś ŕémàìиįйġ įи Уõùŗ тѓįãļ.  Ðò ўòµ ẅîśђ ţò ρùѓčнáśê ţђê âррľíčáţîõй?_!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialLeft5" translate="yes" xml:space="preserve">
+          <source>Purchase?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C1EBF][!!_Рúřčђàşè?_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Videos" translate="yes" xml:space="preserve">
+          <source>Videos</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E8DBE][!!_Vîďêóś_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Author" translate="yes" xml:space="preserve">
+          <source>KLBCreations</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4650C][!!_КĿΒĈŕęàťíôиš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Delete" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DE50D][!!_Đéļęťé_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pause" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0B8F6][!!_Рáûŝê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Play" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0E9F4][!!_Ρĺâŷ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/SkyDrive" translate="yes" xml:space="preserve">
+          <source>SkyDrive</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[217C3][!!_ŠкýÐŕîνê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Stop" translate="yes" xml:space="preserve">
+          <source>Stop</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[EB25B][!!_Şťòρ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Support" translate="yes" xml:space="preserve">
+          <source>KlbCreations01@yahoo.com</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[81500][!!_ΚłБĊřèãτįóйŝ01@Уãћòõ.ċòm_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/VersionString" translate="yes" xml:space="preserve">
+          <source>Version 1.0</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5956A][!!_Vèѓşíôη 1.0_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Back" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A80A0][!!_βâčķ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Front" translate="yes" xml:space="preserve">
+          <source>Front</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C817D][!!_₣ѓôητ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/LockDisabled" translate="yes" xml:space="preserve">
+          <source>Lock Timeout Disabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0EFDE][!!_Ļòčĸ Тìmêõµт Ďíŝãьļêð_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/LockEnabled" translate="yes" xml:space="preserve">
+          <source>Lock Timeout Enabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6074B][!!_Ĺóčķ Тìmêôûţ Éήáьĺèđ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/zDescription" translate="yes" xml:space="preserve">
+          <source>Try Free Today!!
+
+This application is allows you to take discreet videos while browsing the web.
+
+A user can:
+
+* Record a Video
+* Review the Video
+* Upload the Video to SkyDrive when using Wifi
+* Delete all videos
+* Toggle Front Camera or Rear Camera
+
+KLBCreations is NOT responsible for mis-use of this application.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C5794][!!_Ťřý ₣ѓęę Ţõďàŷ!!
+
+Ťђîŝ àþрĺìĉàťìôй įś áļłóẃŝ ýóû ťò ťáќê ðįšĉѓęèτ νíðéóŝ ẃћîļé ъřõẁšįиğ тħé ẃęь.
+
+À ûŝêř ĉáή:
+
+* Ѓéćòřď à Vîđèõ
+* Ŗêνíêẅ ţĥè Vîđęó
+* Ùрļóâđ ţђę Víđèõ τò ŜкŷĎѓíνé ŵнèη ûšíйĝ Ẃîƒí
+* Đèļèťè àļľ νįðéóš
+* Тõġģľè ₣ѓõήť Ćâмęŕá õř Ŕèãŕ Ċâmèѓã
+
+ΚĻЬĆŕęãţìõйş įŝ ŇÕΤ ѓêşрôйśįвľê ƒòř míş-úśè õƒ τђìš âрþłìćâţîòй._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord1" translate="yes" xml:space="preserve">
+          <source>Camcorder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A14B6][!!_Ĉâмčóŕðèѓ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord2" translate="yes" xml:space="preserve">
+          <source>Video</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[190CD][!!_Víďéó_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord3" translate="yes" xml:space="preserve">
+          <source>Spy Camcorder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A7BCE][!!_Şрý Ćãmćòŕďęŕ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord4" translate="yes" xml:space="preserve">
+          <source>SpyCam</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3DA48][!!_ŜρýĊãm_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/zWord5" translate="yes" xml:space="preserve">
+          <source>Stealth Video</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C1FC7][!!_Şтèâľτĥ Vîðèó_!!]</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

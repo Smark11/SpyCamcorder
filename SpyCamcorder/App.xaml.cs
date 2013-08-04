@@ -86,7 +86,7 @@ namespace SpyCamcorder
             _isTrial = true;
 
             MainPage app = MainPage._mainPageInstance;
-            app.IsAppTrialOrBought();
+            app.IsAppTrialOrBought(true);
         }
 
         // Code to execute when the application is deactivated (sent to background)
