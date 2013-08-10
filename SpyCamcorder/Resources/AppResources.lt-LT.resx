@@ -125,4 +125,181 @@
     <value>lt-LT</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Spy kameros</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>pridėti</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Meniu elementas</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Apie</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Ar norite naikinti visus savo vaizdo įrašus?  Įspėjimas: kai ištrinti, jie gali būti išieškota!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Naikinti visus vaizdo įrašus</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Bakstelėkite ekrano parametrus Norėdami peržiūrėti parametrus.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Pasirinkite priekinės arba galinės kameros.  Jūs galite taip pat įjungti automatinio užrakto ekrano ne čia.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Kai šviesa yra žalia, taikymas yra pasiruošę filmuoti.  Norėdami pradėti įrašymą, bakstelėkite mygtuką atnaujinti.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Kai mygtuką atnaujinti yra geltona, vaizdo pradeda įrašyti.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Vaizdo įrašymo, mygtukas yra raudona.  Jei norite baigti filmuoti, bakstelėkite raudoną mygtuką.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Norėdami peržiūrėti savo vaizdo įrašus, bakstelėkite mygtuką vaizdo.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Paspauskite žaisti, žaisti vaizdo, ir naikinti būtų panaikinti vaizdo.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Iš čia galite sustabdyti, pakartoti, pristabdyti ir įkelti vaizdo įrašą į "SkyDrive".  Atkreipkite dėmesį, jums turi būti prijungtas prie wifi įkelti vaizdo įrašą.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Naikinti visus savo vaizdo įrašus iš savo telefono, bakstelėkite Naikinti visus vaizdo įrašus mygtuką.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instrukcijos</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Daugiau Apps nuo KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Norma</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Parametrai</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>1 Žingsnis:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>2 Veiksmas:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>3 Veiksmas:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>4 Žingsnis:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>5 Žingsnis:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>6 Žingsnis:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>7 Veiksmas:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>8 Veiksmas:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>9 Etapas:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Jūs įrašinėjate!  Stabdyti įrašymą į Rodyti savo vaizdo įrašus.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Bandymas</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Jūsų bandomasis pasibaigęs.  Prašome paremti kūrėjai, ir įsigyti šią paraišką!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Jūs turite </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> dienas likusias savo teismą.  Išplėsti savo bandomąją nuo 3 dienų iki 10 dienos, palūkanų normos šią app 5 žvaigždžių, ir teigiamas pakomentuoti.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Pratęsti tyrimo?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>dienas likusias savo teismą.  Ar norite įsigyti?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Pirkti?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Vaizdo įrašai</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Naikinti</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pauzė</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Žaisti</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>"SkyDrive"</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>sustoti, sustok</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Versija 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Atgal</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Priekyje</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Užraktas skirtas laikas neįgaliesiems</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Įjungtas užraktas skirtasis laikas</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Išbandykite nemokamai šiandien!
+
+Ši programa yra leidžia atlikti diskretišką vaizdo naršydami internete.
+
+Vartotojas gali:
+
+* Įrašykite vaizdo įrašą
+* Peržiūrėti vaizdo
+* Įkelti vaizdo įrašą į "SkyDrive" naudodami Wifi
+* Panaikinti visus vaizdo įrašus
+* Perjungti priekinė kamera arba galinė kamera
+
+KLBCreations nėra atsakingas už mis-use šios taikomosios programos.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Vaizdo kamera</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Spy kameros</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Stealth Video</value>
+  </data>
 </root>

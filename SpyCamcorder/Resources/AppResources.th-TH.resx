@@ -125,4 +125,181 @@
     <value>th-TH</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>กล้องสายลับ</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>เมนู</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>เกี่ยวกับ</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>คุณต้องการลบวิดีโอของคุณทั้งหมดหรือไม่  คำเตือน: เมื่อลบ จะไม่สามารถกู้</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>ลบวิดีโอทั้งหมด</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>เคาะหน้าจอการตั้งค่าเพื่อดูการตั้งค่า</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>เลือกหน้าหรือกล้องหลัง  คุณอาจยังเปิดล็อคอัตโนมัติหน้าจอปิดนี่</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>เมื่อแสงสีเขียว แอพลิเคชันได้พร้อมการบันทึกวิดีโอ  เมื่อต้องการเริ่มต้นการบันทึก เคาะปุ่มรีเฟรช</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>เมื่อปุ่มรีเฟรชเป็นสีเหลือง วิดีโอเป็นต้นการบันทึก</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>เมื่อบันทึกวิดีโอ ปุ่มเป็นสีแดง  เมื่อต้องการหยุดการบันทึก เคาะปุ่มสีแดง</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>ตรวจสอบวิดีโอของคุณ เคาะปุ่มวิดีโอ</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>กดเล่นเพื่อเล่นวิดีโอ และลบการลบวิดีโอ</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>ที่นี่ คุณสามารถหยุด เล่น หยุด และอัปโหลดวิดีโอไปยัง skydrive  โปรดทราบคุณต้องเชื่อมต่อ wifi เพื่ออัพโหลดวิดีโอ</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>เมื่อต้องการลบทั้งหมดของวิดีโอของคุณจากโทรศัพท์ของคุณ เคาะลบปุ่มวิดีโอทั้งหมด</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>คำแนะนำ</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>ปพลิเคชันเพิ่มเติมจาก KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>อัตรา</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>การตั้งค่า</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>ขั้นตอนที่ 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>ขั้นตอนที่ 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>ขั้นตอนที่ 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>ขั้นตอนที่ 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>ขั้นตอนที่ 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>ขั้นตอนที่ 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>ขั้นตอนที่ 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>ขั้นตอนที่ 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>ขั้นที่ 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>คุณกำลังบันทึก  หยุดการบันทึกเพื่อดูวิดีโอของคุณ</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>ทดสอบ</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>ทดลองของคุณหมดอายุ  กรุณาสนับสนุนนักพัฒนา และซื้อโปรแกรมประยุกต์นี้</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>คุณมี </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> วันที่เหลืออยู่ในการทดลอง  ขยายการทดลองจาก 3 วันเป็น 10 วัน อัตรานี้ app 5 ดาว และความคิดเห็นในเชิงบวก</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>ขยายการทดลองหรือไม่</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>วันที่เหลืออยู่ในการทดลอง  คุณต้องการซื้อโปรแกรมประยุกต์หรือไม่</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>ซื้อหรือไม่</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>วิดีโอ</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>หยุดชั่วคราว</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>เล่น</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>หยุด</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>รุ่น 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>ย้อนกลับ</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>หน้า</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>ปิดใช้งานการหมดเวลาล็อก</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>เปิดใช้งานการหมดเวลาล็อก</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>ลองวันนี้ฟรี!!
+
+โปรแกรมนี้จะช่วยให้คุณสามารถใช้วิดีโอรอบคอบขณะเรียกดูเว็บ
+
+ผู้ใช้สามารถ:
+
+-บันทึกวิดีโอ
+* ตรวจสอบวิดีโอ
+* อัพโหลดวิดีโอไป SkyDrive เมื่อใช้ Wifi
+* ลบวิดีโอทั้งหมด
+* สลับกล้องหน้าหรือกล้องหลัง
+
+KLBCreations ไม่ชอบ mis-use ของโปรแกรมประยุกต์นี้</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>กล้องวีดีโอ</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>วิดีโอ</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>กล้องสายลับ</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>วิดีโอลักลอบ</value>
+  </data>
 </root>

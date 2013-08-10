@@ -125,4 +125,181 @@
     <value>ca-ES</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Càmera d'espia</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>afegir</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Element de menú</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Voleu suprimir tots els teus vídeos?  Advertiment: una vegada que suprimit, ells no es pot recobrar!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Suprimir tots els vídeos</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Doni copets la pantalla d'escenes per visualitzar la configuració.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Seleccioneu el front o la càmera del darrere.  Vostè pot també al seu torn el pany auto fora de la pantalla aquí.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Quan la llum és verd, l'aplicació està preparada per gravar un vídeo.  Per començar a enregistrar, doni copets el botó d'actualització.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Quan el botó d'actualització és groc, el vídeo està començant a gravar.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Quan el vídeo està gravant, el botó és de color vermell.  Per aturar l'enregistrament, doni copets el botó vermell.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Per a revisar els seus vídeos, doni copets el botó de vídeos.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Premeu jugar per jugar el vídeo i suprimir per suprimir el vídeo.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Des d'aquí pot deixar, reproduir, pausa i pujar el vídeo a skydrive.  Si us plau, tingueu en compte que s'ha connectat a wifi a pujar un vídeo.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Per suprimir tots els teus vídeos des del seu telèfon, doni copets el suprimir tots els botó de vídeos.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instruccions</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Més Apps des de KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Taxa</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Configuració</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Pas 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Pas 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Pas 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Pas 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Pas 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Pas 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Pas 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Pas 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Pas 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>S'enregistra!  Aturar l'enregistrament per veure els seus vídeos.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Prova</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>El seu judici ha expirat.  Si us plau, donar suport als desenvolupadors i comprar aquesta aplicació!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Vostè té </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> dies que romanen en el seu judici.  Per estendre el seu judici de 3 dies a 10 dies, valorar aquest estrelles app 5 i deixar un comentari positiu.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Estengui judici?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>dies que romanen en el seu judici.  Voleu comprar l'aplicació?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Compra?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Vídeos</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Suprimir</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Jugar</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Parada</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Versió 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Esquena</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Part davantera</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Impossibilitat de temps d'espera de bloqueig</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Temps d'espera pany habilitada</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Tractar de franc avui!!
+
+Aquesta aplicació és que li permet prendre vídeos discrets mentre navegues per la web.
+
+Un usuari pot:
+
+* Gravar un vídeo
+* Revisar el vídeo
+* Pujar el vídeo a SkyDrive quan utilitzant Wifi
+* Suprimeix tots els vídeos
+* Canviar la càmera frontal o posterior càmera
+
+KLBCreations no és responsable de la mis-use d'aquesta aplicació.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Càmera de vídeo</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Vídeo</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Càmera d'espia</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Cautela vídeo</value>
+  </data>
 </root>

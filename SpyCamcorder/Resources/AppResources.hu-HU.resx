@@ -125,4 +125,181 @@
     <value>hu-HU</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Kém Camcorder</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Add hozzá</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menüpont</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Körülbelül</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Biztosan törli az összes videó?  Figyelmeztetés: Ha törli, azok nem lehet visszanyerni!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Törölje az összes videó</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Érintse meg a beállítások képernyő-beállításainak megtekintése.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Válassza ki az első vagy a hátsó kamera.  Akkor is forduljon a kocsi bezár képernyő-kikapcsoló itt.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Amikor a fény zöld, a alkalmazás kész felvenni egy videót.  A felvétel elkezdéséhez, érintse meg a frissítés gombra.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Amikor a frissítés gombra a sárga, a videó elején felvenni.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Ha a videó felvétel, a gomb piros.  A felvétel leállításához érintse meg a piros gombot.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Felülvizsgálata a videókat, koppintson a videók.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Nyomja meg játszani, játszanak a videót, és a videó törlése.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Itt megáll, visszajátszás, szünet, és feltölt a video-hoz skydrive.  Kérjük, vegye figyelembe, hogy meg kell kötni, hogy wifi-hoz feltölt egy video.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Törli az összes videó a telefonján, koppintson a törlés minden videók.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Utasítások</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Több Apps-ból KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Arány</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>1. Lépés:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>2. Lépés:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>3. Lépés:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>4. Lépés:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>5. Lépés:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>6. Lépés:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>7. Lépés:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>8. Lépés:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>9. Lépés:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Regisztráló készülék!  Leállítja a felvételt a videó megtekintéséhez.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Teszt</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>A próba-birtokol lejárt.  Kérjük támogassa a fejlesztők, és megvásárol ez alkalmazás!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Van </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> nap van hátra a próba.  Hosszabbítsa meg próba, 3 nap, 10 nap, ez app 5 csillagok, és pozitív hozzászólást hagyni.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Kiterjesztése a próba?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>nap van hátra a próba.  Szeretne vásárolni az alkalmazás?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Vásárolni?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videók</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Törlése</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Szünet</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Játék</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>állj</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>1.0-S verzió</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Vissza</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Zárolási időkorlát letiltva</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Zárolási időkorlát engedélyezése</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Próbálja ki a szabad ma!
+
+Ez az alkalmazás is lehetővé teszi, hogy a diszkrét videó böngészés közben.
+
+A felhasználók a következőket tehetik:
+
+* Feljegyzés egy Video
+* Nézzük át a videó
+* Töltsd fel a videót a SkyDrive Wifi használata esetén
+* Törölje az összes videó
+* Pecek elülső kamera vagy a hátsó kamera
+
+KLBCreations van nem megtévesztő, az alkalmazás felelős.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Videokamera</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Videóinak</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Kém Camcorder</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Lopakodó videóinak</value>
+  </data>
 </root>

@@ -125,4 +125,181 @@
     <value>tr-TR</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Casus Camcorder</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menü öğesi</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Tüm videolarınızı silmek istiyor musunuz?  Uyarı: silinmiş bir kez onlar elde edilebilir değil!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Tüm videoları silmek</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Ayarlarını görüntülemek için ayarlar ekrana dokunun.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Ön veya arka kamera seçin.  Ayrıca otomatik kilit ekran kapalı burada çevirmek olabilir.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Işık yeşil olduğunda, bir video kaydetmek için hazır bir uygulamadır.  Kaydetmeye başlamak için yenile düğmesine dokunun.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Yenile düğmesini sarı olduğunda, video kaydetmeye başlıyor.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Video kaydederken düğme kırmızıdır.  Kaydı durdurmak için kırmızı düğmeye dokunun.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Videolarınızı gözden geçirmek için videolar düğmesine dokunun.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Oynamak için play tuşuna basın video ve video silmek için Sil.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Buradan, durdurmak, yeniden yürütme, duraklatma ve skydrive için video upload.  Unutmayın ki bir video yüklemek için wifi için bağlı olmanız gerekir.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Tüm videolarınızı telefonunuzdan silmek için Sil tüm videolar düğmesine dokunun.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Talimatları</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Daha fazla Apps--dan KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Oranı</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>1. Adım:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>2. Adım:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Adım 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Adım 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Adım 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Adım 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>7. Adım:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Adım 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Adım 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Kayıt!  Videolarınızı görüntülemek için kaydı durdurmak.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Deneme süresi doldu.  Lütfen destek geliştiricileri ve bu uygulama satın!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Sen-si olmak </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> Deneme sürümünüzü kalan gün.  3 Gün 10 gün deneme uzatmak için bu app 5 yıldız ve olumlu bir yorum bırakın.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Deneme uzatmak?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>Deneme sürümünüzü kalan gün.  Uygulama satın almak istiyor musunuz?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Satınalma?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videolar</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Silme</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Duraklat</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Oyun</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Durdurmak</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Sürüm 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Kilit zaman aşımı devre dışı</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Etkin kilit zaman aşımı</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Ücretsiz bugün deneyin!
+
+Bu uygulamadır web tarama sırasında gizli videolar çekmek izin verir.
+
+Bir kullanıcı için:
+
+* Video kaydetmek
+* İnceleme Video
+* Video SkyDrive için Wifi kullanırken yükleme
+* Tüm videoları silin
+* Ön kamera veya arka kamera geçiş
+
+KLBCreations değil bu uygulamanın yanlış sorumlu.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Video kamera</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Casus Camcorder</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Gizli Video</value>
+  </data>
 </root>

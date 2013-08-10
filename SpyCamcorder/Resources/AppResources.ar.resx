@@ -125,4 +125,181 @@
     <value>ar</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>كاميرا تجسس</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>عنصر القائمة</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>هل تريد بالتأكيد حذف كافة أشرطة الفيديو الخاصة بك؟  تحذير: بعد حذف، لا يمكن استردادها!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>حذف كافة ملفات الفيديو</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>اضغط على إعدادات الشاشة لعرض الإعدادات.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>حدد الأمامي أو الخلفي من الكاميرا.  يمكنك أيضا تشغيل شاشة القفل التلقائي إيقاف هنا.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>عندما يكون الضوء الأخضر، التطبيق جاهز لتسجيل فيديو.  لبدء التسجيل، انقر فوق الزر تحديث.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>عندما يكون الزر تحديث الأصفر، بدأ تسجيل الفيديو.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>عندما يتم تسجيل الفيديو، الزر الأحمر.  لإيقاف التسجيل، اضغط على الزر الأحمر.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>لاستعراض أشرطة الفيديو الخاصة بك، انقر فوق الزر أشرطة الفيديو.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>اضغط على اللعب للعب الفيديو، وحذف لحذف الفيديو.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>من هنا، يمكنك إيقاف وإعادتها، وقفه، وتحميل الفيديو إلى skydrive.  يرجى ملاحظة يجب أن يكون متصلاً وأي فأي تحميل فيديو.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>لحذف كل من أشرطة الفيديو الخاصة بك من الهاتف الخاص بك، اضغط الحذف جميع أشرطة الفيديو زر.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>تعليمات</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>تطبيقات أكثر من كلبكرييشنز</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>إعدادات</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>الخطوة 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>الخطوة 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>الخطوة 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>الخطوة 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>الخطوة 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>الخطوة 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>الخطوة 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>الخطوة 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>الخطوة 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>الذي تقوم بتسجيله!  إيقاف التسجيل لعرض أشرطة الفيديو الخاصة بك.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>اختبار</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>انتهت صلاحية النسخة التجريبية.  الرجاء دعم المطورين، وشراء هذا التطبيق!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>لديك </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> الأيام المتبقية في المحاكمة الخاصة بك.  تمديد محاكمة الخاص من 3 أيام إلى 10 أيام، معدل هذا التطبيق 5 النجوم، وترك تعليق إيجابي.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>تمديد المحاكمة؟</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>الأيام المتبقية في المحاكمة الخاصة بك.  هل ترغب في شراء التطبيق؟</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>الشراء؟</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>أشرطة الفيديو</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>كلبكرييشنز</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>إيقاف مؤقت</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>اللعب</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>وقف</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>الإصدار 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>مرة أخرى</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>جبهة</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>قفل المهلة معطل</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>مهلة تأمين تمكين</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>حاول اليوم مجاناً!!
+
+هذا التطبيق يسمح لك أن تأخذ أشرطة فيديو سرية أثناء تصفح الويب.
+
+يمكن لمستخدم:
+
+* تسجيل فيديو
+* استعراض الفيديو
+* تحميل الفيديو إلى SkyDrive عند استخدام وأي فأي
+* حذف جميع ملفات الفيديو
+* تبديل الكاميرا الأمامية أو كاميرا خلفية
+
+كلبكرييشنز ليست مسؤولة عن إساءة استخدام هذا التطبيق.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>كاميرا فيديو</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>فيديو</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>كاميرا تجسس</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>فيديو الشبح</value>
+  </data>
 </root>

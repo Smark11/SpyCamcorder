@@ -125,4 +125,181 @@
     <value>ro-RO</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Camera video spion</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Adauga</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Elementul de meniu</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Doriti sa stergeti toate clipurile video?  Avertisment: Odată ce elimină, acestea poate nu fi recuperat!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Ştergeţi toate videoclipurile</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Atingeți ecranul de setări pentru a vizualiza setările.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Selectaţi din faţă sau din spate aparat de fotografiat.  Puteţi, de asemenea, rândul auto blocare ecran de pe aici.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Atunci când lumina este verde, cererea este gata de a înregistra un video.  Pentru a începe înregistrarea, apăsaţi butonul de reîmprospătare.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Atunci când butonul de reîmprospătare este galben, video este începutul pentru a înregistra.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Atunci când este înregistrarea video, butonul este de culoare roşie.  Pentru a opri înregistrarea, apăsaţi butonul roşu.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Pentru a revizui videoclipuri, atingeți butonul de videoclipuri.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Apăsaţi pentru a juca video şi ştergere pentru a şterge pagina.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>De aici, puteţi opri, reluarea, pauză, şi încărcaţi video la spre skydrive.  Vă rugăm să reţineţi trebuie să fie conectat la wifi pentru a încărca un video.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Pentru a şterge toate clipurile video de pe telefon, apăsaţi şterge toate videoclipurile buton.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instrucţiuni</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Mai multe Apps de la KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Rata</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Pasul 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Pasul 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Pasul 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Pasul 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Pasul 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Pasul 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Pasul 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Pasul 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Pasul 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Sunteţi de înregistrare!  Opriți înregistrarea pentru a vizualiza videoclipuri.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Testul</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Vă proces a expirat.  Vă rugăm să sprijine dezvoltatorii, şi această cerere de cumpărare!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Tu ai </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> zile rămase în proces dumneavoastră.  Pentru a extinde dumneavoastră proces de 3 zile la 10 zile, rata acest app 5 stele, şi lasă un comentariu pozitiv.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Prelungi proces?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>zile rămase în proces dumneavoastră.  Doriţi să cumpere aplicaţia?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Cumpărare?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videoclipuri</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Ştergeţi</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pauză</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Juca</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>opreşte-te</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Versiunea 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Spate</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Fata</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Blocare Timeout Disabled (dezactivat)</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Timeout de blocare activată</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Încercaţi gratuit azi!
+
+Această aplicaţie este vă permite să ia discret video în timp ce navigarea pe web.
+
+Un utilizator poate:
+
+* Înregistra un Video
+* De revizuire Video
+* Încărcaţi Video la spre SkyDrive atunci când se utilizează internet Wi-fi
+* Ştergeţi toate videoclipurile
+* Comutare aparat de fotografiat din faţă sau din spate aparat de fotografiat
+
+KLBCreations nu este responsabil pentru mis-use la această cerere.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Camera video</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Pagina</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Camera video spion</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Stealth pagina</value>
+  </data>
 </root>

@@ -125,4 +125,181 @@
     <value>de</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Spion Camcorder</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menüpunkt</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Möchten Sie alle Ihre Videos löschen?  Warnung: einmal gelöscht, können sie nicht wiederhergestellt werden!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Löschen Sie alle Videos</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Tippen Sie auf den Einstellungsbildschirm, um die Einstellungen anzuzeigen.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Wählen Sie entweder die Vorder- oder Rückfahrkamera.  Sie können auch wiederum die automatische Sperre Bildschirm Weg hier.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Wenn das Licht grün ist, ist die Anwendung bereit, eine Video aufzunehmen.  Tippen Sie zum Starten der Aufnahme auf die Schaltfläche "aktualisieren".</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Wenn die Schaltfläche "aktualisieren" gelb ist, beginnt das Video aufzeichnen.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Wenn das Video aufzeichnet, ist die Schaltfläche rot.  Um die Aufzeichnung zu beenden, tippen Sie auf den roten Knopf.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Um Ihre Videos zu überprüfen, tippen Sie auf die Schaltfläche "Videos".</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Drücken Sie Wiedergabe zu spielen das Video, und löschen Sie, um das Video zu löschen.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Von hier aus können Sie zu stoppen, wiedergeben, anhalten und das Video-upload zu Skydrive.  Bitte beachten Sie, dass Sie mit Wifi eine Video hochladen verbunden werden müssen.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Um alle Videos von Ihrem Telefon zu löschen, tippen Sie auf dem Löschen Schaltfläche "alle Videos".</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Anweisungen</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Mehr Apps von KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Komplettpreise</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Schritt 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Schritt 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Schritt 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Schritt 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Schritt 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Schritt 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Schritt 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Schritt 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Schritt 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Sie sind mit der Aufnahme!  Beenden Sie die Aufnahme um Ihre Videos zu sehen.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Ihre Testversion ist abgelaufen.  Bitte unterstützen Sie die Entwickler, und kaufen Sie diese Anwendung zu!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Sie haben </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> Tage verbleiben in Ihren Test.  Ihre Testversion ab 3 Tage bis 10 Tage zu verlängern, dieses app 5 Sterne bewerten und einen positiven Kommentar.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Verlängern Testversion?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>Tage verbleiben in Ihren Test.  Möchten Sie die Anwendung kaufen?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Kaufen?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Anhalten</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Spielen</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Version 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Sperre Timeout deaktiviert</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Sperre-Timeout aktiviert</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Versuchen Sie frei heute!
+
+Diese Anwendung ist, können Sie diskret Videos nutzen beim Surfen im Internet.
+
+Ein Benutzer kann:
+
+* Eine Video aufzeichnen
+* Überprüfung des Videos
+* Laden Sie das Video auf SkyDrive, wenn WLAN Nutzung
+* Löschen Sie alle videos
+* Kipp Frontkamera oder Heckkamera
+
+KLBCreations ist nicht verantwortlich für Nachteile dieser Anwendung.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Camcorder</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Spion Camcorder</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Stealth Video</value>
+  </data>
 </root>

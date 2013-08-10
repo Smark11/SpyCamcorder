@@ -125,4 +125,181 @@
     <value>et-EE</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Spy Kaamerad</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>lisada</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menüü-üksus</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Umbes</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Kas soovite kustutada kõik oma videod?  Hoiatus: kui välja jätta, nad ei saa tagasi!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Kustutada kõik videod</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Puudutage seadete ekraani sätete vaatamiseks.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Valige eesmise või tagumise kaamera.  Võite ka omakorda auto lukk ekraan välja siin.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Kui süttib roheline, taotlus on valmis video salvestamine.  Salvestamise alustamiseks koputage nuppu Värskenda.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Kui nuppu Värskenda on kollane, hakkab video salvestamiseks.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Video salvestamisel nupp on punane.  Filmimise lõpetamiseks puuduta punast nuppu.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Videote vaatamiseks koputage nuppu videod.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Vajutage mängida mängida video ja video kustutamiseks Kustuta.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Siit saate lõpetada, Kordus, paus ja upload video skydrive.  Pange tähele, peab teil olema ühendus wifi upload video.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Kustutada kõik oma videod telefonist, puudutage delete nuppu kõik videod.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Juhised</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Rohkem Apps alates KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Määr</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Seaded</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>1. Samm:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>2. Samm:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>3. Samm:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>4. Samm:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>5. Samm:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>6. Samm:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Samm 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>8. Samm:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>9. Samm:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Salvestamise!  Vaadata oma videote salvestamise lõpetamiseks.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Katse</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Teie prooviversioon on aegunud.  Palun toeta arendajad ja osta see rakendus!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Teil on </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> päeva jäänud oma uuringus.  Laiendada oma uuringus 3 päeva kuni 10 päeva, hinda seda app 5 tärni ja positiivne kommentaar.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Laiendada uuringu?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>päeva jäänud oma uuringus.  Kas soovite osta taotlus?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Osta?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videod</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Kustuta</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Paus</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Mängida</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stopp</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Versioon 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Tagasi</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Vastuvõtt</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Lukk ajalõpu puuetega</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Lukk ajalõpp, lubatud</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Proovige tasuta täna!
+
+See rakendus on võimaldab teil võtta varjatud videod veebi sirvimist.
+
+Kasutaja saab:
+
+* Video salvestamine
+* Ülevaade Video
+* Lae Video SkyDrive kasutades Wifi
+* Kustutada kõik videod
+* Lülita ees kaamera või tagumine kaamera
+
+KLBCreations ei ole vastutavad selle rakenduse mis-use.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Videokaamera</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Spy Kaamerad</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Stealth Video</value>
+  </data>
 </root>

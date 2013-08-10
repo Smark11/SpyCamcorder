@@ -125,4 +125,181 @@
     <value>ru-RU</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Шпионские камеры</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Пункт меню</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>О</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Вы хотите удалить все ваши видео?  Предупреждение: после удаления, они не могут быть восстановлены!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Удалить все видео</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Коснитесь Параметры экрана для просмотра параметров.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Выберите на передней или задней камеры.  Вы можете также включить автоматический замок экран здесь.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Когда свет зеленый, приложение готово для записи видео.  Чтобы начать запись, нажмите кнопку Обновить.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Когда кнопка Обновить желтый, видео начинает запись.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>При записи видео, кнопка имеет красный цвет.  Чтобы остановить запись, нажмите на красную кнопку.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Для просмотра видео, нажмите на кнопку видео.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Нажмите кнопку play для воспроизведения видео и удалить, чтобы удалить видео.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Отсюда можно остановить, воспроизведение, пауза и загружать видео в skydrive.  Пожалуйста, обратите внимание: вы должны быть подключены к Wi-Fi для загрузки видео.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Чтобы удалить все видео из вашего телефона, нажмите Удалить все видео.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Инструкции</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Больше Apps от KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Шаг 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Шаг 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Шаг 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Шаг 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Шаг 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Шаг 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Шаг 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Шаг 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Шаг 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Вы записываете!  Остановите запись для просмотра ваших видео.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Тест</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Вашего суда истек.  Пожалуйста, поддержите разработчиков и приобрести это приложение!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>У вас есть </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> дней, оставшихся в пробной.  Чтобы продлить пробную от 3 дней до 10 дней, оценить это приложение 5 звезд и оставить положительный комментарий.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Расширить судебное разбирательство?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>дней, оставшихся в пробной.  Вы хотите купить приложение?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Приобрести?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Пауза</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Играть</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Остановка</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Версия 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Фронт</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Lock Timeout инвалидов</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Время ожидания блокировки включено</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Попробуйте бесплатно сегодня!
+
+Это приложение является позволяет вам взять сдержанный видео при работе в Интернете.
+
+Пользователь может:
+
+* Запись видео
+* Обзор видео
+* Загрузите видео в SkyDrive при использовании Wifi
+* Удалить все видео
+* Переключение передней камеры или камеры заднего вида
+
+KLBCreations это не ответственность за неправильного использования данного приложения.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Видеокамера</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Шпионские камеры</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Хитрость видео</value>
+  </data>
 </root>

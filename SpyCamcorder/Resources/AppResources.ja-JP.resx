@@ -125,4 +125,181 @@
     <value>ja-JP</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>スパイのカムコーダー</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>メニュー項目</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>について</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>あなたのビデオのすべてを削除しますか?警告: 削除されると、ないリカバリできます ！</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>すべての動画を削除します。</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>設定を表示する画面をタップします。</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>前面と背面のカメラのどちらかを選択します。あなたがここでオフの自動ロックの画面にもあります。</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>ライトが緑のとき、アプリケーションはビデオを録画する準備ができて。録音を開始するには [更新] ボタンをタップします。</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>[更新] ボタンが黄色、ビデオを記録し始めています。</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>ビデオを記録するとき、ボタンは赤です。録音を停止するには、赤いボタンをタップします。</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>あなたのビデオを確認するには、下のビデオをタップしてください。</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>押して再生する再生、ビデオとビデオを削除する削除します。</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>ここからは、停止、再生、一時停止、およびビデオを skydrive にアップロードをすることができます。あなたがビデオをアップロードする wifi に接続する必要がありますのでご注意ください。</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>あなたの携帯電話からすべての動画を削除するには、削除のすべてのビデオ ボタンをタップします。</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>指示</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>KLBCREATIONS からより多くのアプリケーション</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>レート</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>手順 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>ステップ 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>手順 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>ステップ 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>手順 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>手順 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>手順 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>手順 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>手順 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>記録している ！あなたのビデオを表示する記録を停止します。</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>テスト</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>試用版の有効期限が切れました。ください、開発者をサポートし、このアプリケーションを購入 ！</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>あります。</value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value>あなたの残りの日。3 日から 10 日間試用版を拡張するには、このアプリは、5 つ星の評価し、肯定的なコメントを残します。</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>試用版を拡張？</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>あなたの残りの日。アプリケーションを購入したいですか？</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>購入ですか？</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>ビデオ</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>一時停止</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>再生</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>バージョン 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>フロント</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>ロック タイムアウトの無効</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>ロック タイムアウトの有効化</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>無料今日してみてください ！
+
+このアプリケーションは、web をブラウズしている間控えめのビデオを撮影することができます。
+
+ユーザーは、次の操作を実行できます。
+
+* ビデオを記録します。
+* ビデオをレビューします。
+* ビデオ SkyDrive にアップロード Wifi を使用する場合
+* すべてのビデオを削除します。
+* フロント カメラ/背面カメラを切り替える
+
+KLBCreations はこのアプリケーションの誤用のための責任があります。</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>ビデオカメラ</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>ビデオ</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>スパイのカムコーダー</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>ステルスのビデオ</value>
+  </data>
 </root>

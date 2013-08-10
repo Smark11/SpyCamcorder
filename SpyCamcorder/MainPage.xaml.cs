@@ -35,15 +35,11 @@ namespace SpyCamcorder
         private RecordState _currentState;
 
         CaptureSource _captureSource;
-        VideoCaptureDevice _videoCaptureDevice;
 
-        IsolatedStorageFileStream _isoVideoFile;
         FileSink _fileSink;
-        string _isoVideoFileName = "CameraMovie.mp4";
         VideoBrush _videoRecorderBrush;
 
         private enum ButtonState { Initialized, Ready, Recording, Playback, Paused, NoChange, CameraNotSupported };
-        ButtonState _currentAppState;
 
         // Constructor
         public MainPage()

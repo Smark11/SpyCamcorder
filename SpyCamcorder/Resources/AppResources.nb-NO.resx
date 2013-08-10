@@ -125,4 +125,181 @@
     <value>nb-NO</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Spion Camcorder</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>legge til</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menyelement</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Vil du slette alle videoene?  Advarsel: en gang fjernet, de kan ikke gjenopprettes!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Slette alle videoer</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Trykk på innstillinger-skjermen for å vise innstillingene.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Velg enten foran eller bak kamera.  Du kan også aktivere auto Lås skjermen av her.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Når lyset blir grønt, er programmet klar til å spille inn en video.  For å starte innspillingen, tapper du Oppdater-knappen.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Når Oppdater-knappen er gul, begynner videoen å spille inn.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Når videoen er innspillingen, er knappen rød.  Trykk den røde knappen for å stoppe innspillingen.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Hvis du vil se gjennom dine videoer, trykk på videoer.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Trykk spill å spille videoen, og slett for å slette videoen.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Herfra kan du stoppe, spille, pause og laste opp videoen til skydrive.  Vær oppmerksom på at du må være koblet til wifi å laste opp en video.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Hvis du vil slette alle videoene fra telefonen, trykk på Slett alle videoer.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instruksjoner</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Mer Apps fra KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Innstillinger</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Trinn 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Trinn 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Trinn 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Trinn 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Trinn 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Trinn 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Trinn 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Trinn 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Trinn 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Du spiller!  Stoppe innspillingen for å vise videoer.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Prøveperioden er utgått.  Vennligst støtte utviklerne, og kjøpe dette programmet!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Du har </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> gjenværende dager i prøveversjonen.  Å forlenge din prøveversjon fra 3 dager til 10 dager, rangere denne app 5 stjerner, og la en positiv kommentar.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Utvide rettssaken?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>gjenværende dager i prøveversjonen.  Vil du kjøpe programmet?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Kjøp?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videoer</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Slette</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Spille</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>stopp</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Versjon 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Tilbake</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Foran</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Lås tidsavbrudd deaktivert</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Låsetidsavbrudd aktivert</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Prøv gratis i dag!
+
+Dette programmet er lar deg ta diskret videoer mens du surfer på nettet.
+
+En bruker kan:
+
+* Vanlig en Video
+* Gjennomgang Video
+* Last opp videoen til SkyDrive når du bruker Wifi
+* Slett alle videoer
+* Slå kameraet foran eller bak kamera
+
+KLBCreations er ikke ansvarlig for mis-bruk av dette programmet.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Videokamera</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Spion Camcorder</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Stealth Video</value>
+  </data>
 </root>

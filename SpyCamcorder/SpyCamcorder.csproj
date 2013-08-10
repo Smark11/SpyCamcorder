@@ -228,6 +228,8 @@
     <Content Include="InstructionImages\Instruction5.jpg" />
     <Content Include="InstructionImages\Instruction6.jpg" />
     <Content Include="InstructionImages\Instruction7.jpg" />
+    <Content Include="PotentialEdited300x300.png" />
+    <Content Include="PotentialEdited99x99.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.ar.resx">
@@ -459,7 +461,6 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Live, Version=5.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.Live.Controls, Version=5.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Phone.Controls.Toolkit">
       <HintPath>..\Libraries\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
     </Reference>

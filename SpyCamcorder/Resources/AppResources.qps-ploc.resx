@@ -125,4 +125,181 @@
     <value>qps-ploc</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>[30149][!!_Šрÿ Ċâмćõřďéŕ_!!]</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>[7F37D][!!_áđð_!!]</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>[CE46E][!!_Μęиù Îтém_!!]</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>[CE6DA][!!_Áъõµт_!!]</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>[4FB98][!!_Ðõ ýóû ẃîşћ ťó ďéłèţê âļļ òƒ ўòúř νíđèôş?  Ẃáŕηîηġ:  õηĉè đêļêťęð, τĥèÿ ĉãй ήõţ ъê ŕéċóνęŕęð!_!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>[D83F0][!!_Đéľèтè Áłĺ Vįðèôš_!!!!!!]</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>[C4559][!!_Ţàþ ťђê ŝêťτìήĝš śĉŗęêή ťô νįèẅ ťħę ŝéттîηĝŝ._!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>[E15CC][!!_Šèĺèċť ęįţħèř ţћê ƒŗóηт ôѓ řęàř ćáмéѓà.  Ŷôû màУ áļşõ ťûŗй ťђę ãµτó ľóĉĸ ščŗêèή òƒƒ ћęŕé._!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>[FA2E7][!!_Ẅћéи ťħé ľįģћт įś ġŗęèи, ťнê ãþþļìćàтįòи ìš řęáđÿ ťõ ŗèčòѓð à νîðèõ.  Τõ ьèğíη ŗéċôѓðìήğ, ţáþ тћé ѓęƒřèšĥ Бúťтòη._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>[44D68][!!_Ẅћêй τћę ѓęƒŗęśђ ъµťтôή įś ÿèļľóŵ, ťђę νîðêô ìś ьęĝîηηíήğ τò ѓęċóřð._!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>[C17ED][!!_Ẅнèή ţђè νíðéô îš ѓêċõŗðîиğ, ţђê Бùτтòή ìš ѓęď.  Ťô śτòр тĥè ѓęčõѓðîηģ, ţãр тнé ѓèð Бµťţõή._!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>[C5EE2][!!_Τô řéνìéẃ ŷòúѓ νìðęõš, ţáρ τħê νíðęôŝ ьµţτòη._!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>[21DE7][!!_Þŗéśŝ þłãУ ţò þĺâŷ тħê νîđêó, âйð ďèļęťè ťõ đêłęтè τħê νìďéô._!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>[FF99A][!!_₣řôм нêřę, Уôû čãη ŝţôþ, ѓéрļáў, рâûśê, ãηđ ûþľõâð ţђę νìďéó τó ŝќÿðŗįνé.  Þĺèàśę иòτę ўòù мûśτ ьé ċòйиêčťèđ τõ ŵìƒį тò úρĺôàð à νìđêó._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>[415E5][!!_Ťò ďêłęτè âłł ôƒ Уóùŗ νįđèôş ƒřòм ŷõµř þĥôиè, ţàр τħè ðéļêťę ãĺĺ νîďęôŝ Бúťтóη._!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>[CE4E5][!!_Įйšţŕùċтìôηš_!!]</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>[E4AD4][!!_Мóřé Âρþš ƒřòм ΚĿЬĈЃÉÃΤĮÕŃŞ_!!!!!!!!]</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>[1AFE4][!!_Řáţè_!!]</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>[1B0C7][!!_Śéţťíήġş_!!]</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>[A18D9][!!_Ŝţêр 1:_!!]</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>[DB588][!!_Śтęр 2:_!!]</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>[47FC8][!!_Šτèþ 3:_!!]</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>[1607B][!!_Şτêþ 4:_!!]</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>[1E661][!!_Ŝтéþ 5:_!!]</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>[12746][!!_Śţéþ 6:_!!]</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>[51088][!!_Şτêþ 7:_!!]</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>[019C1][!!_Śťéþ 8:_!!]</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>[524E1][!!_Ŝτéр 9:_!!]</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>[71403][!!_Ϋóù ãѓé ѓèĉõřðįйĝ!  Şтóρ ŕèčóѓđìиĝ ťõ νíèẅ ўòûѓ νîđêóš._!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>[40D86][!!_Τéŝτ_!!]</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>[07785][!!_Ўõµѓ ťŗíàļ ħãŝ èхþîřêð.  Þľèãšê şùþрòřт тĥę đęνéłòþèŕš, àηď ρùŗĉĥâšè ťħįś àρρłíćãтįõи!_!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>[4284B][!!_Ўõû нãνê _!!]</value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value>[FF771][!!_ ðáŷş řémâîηíйġ îй ýòúř ţŗíàł.  Ťõ Ęхţéηð ўôûŕ ţŕîâł ƒѓòm 3 ðàŷŝ ţô 10 Ðàýš, Ŕàţé ťĥíş âрр 5 ŝτâѓŝ, âήď łêáνè à þõŝìţìνè ċômмêйτ._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>[73383][!!_Ê×ťéйđ Τŕìâľ?_!!]</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>[24C21][!!_đáУś ŕémàìиįйġ įи Уõùŗ тѓįãļ.  Ðò ўòµ ẅîśђ ţò ρùѓčнáśê ţђê âррľíčáţîõй?_!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>[C1EBF][!!_Рúřčђàşè?_!!]</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>[E8DBE][!!_Vîďêóś_!!]</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>[4650C][!!_КĿΒĈŕęàťíôиš_!!]</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>[DE50D][!!_Đéļęťé_!!]</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>[0B8F6][!!_Рáûŝê_!!]</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>[0E9F4][!!_Ρĺâŷ_!!]</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>[217C3][!!_ŠкýÐŕîνê_!!]</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>[EB25B][!!_Şťòρ_!!]</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>[81500][!!_ΚłБĊřèãτįóйŝ01@Уãћòõ.ċòm_!!!!!!!!]</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>[5956A][!!_Vèѓşíôη 1.0_!!]</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>[A80A0][!!_βâčķ_!!]</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>[C817D][!!_₣ѓôητ_!!]</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>[0EFDE][!!_Ļòčĸ Тìmêõµт Ďíŝãьļêð_!!!!!!]</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>[6074B][!!_Ĺóčķ Тìmêôûţ Éήáьĺèđ_!!!!!!]</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>[C5794][!!_Ťřý ₣ѓęę Ţõďàŷ!!
+
+Ťђîŝ àþрĺìĉàťìôй įś áļłóẃŝ ýóû ťò ťáќê ðįšĉѓęèτ νíðéóŝ ẃћîļé ъřõẁšįиğ тħé ẃęь.
+
+À ûŝêř ĉáή:
+
+* Ѓéćòřď à Vîđèõ
+* Ŗêνíêẅ ţĥè Vîđęó
+* Ùрļóâđ ţђę Víđèõ τò ŜкŷĎѓíνé ŵнèη ûšíйĝ Ẃîƒí
+* Đèļèťè àļľ νįðéóš
+* Тõġģľè ₣ѓõήť Ćâмęŕá õř Ŕèãŕ Ċâmèѓã
+
+ΚĻЬĆŕęãţìõйş įŝ ŇÕΤ ѓêşрôйśįвľê ƒòř míş-úśè õƒ τђìš âрþłìćâţîòй._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>[A14B6][!!_Ĉâмčóŕðèѓ_!!]</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>[190CD][!!_Víďéó_!!]</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>[A7BCE][!!_Şрý Ćãmćòŕďęŕ_!!]</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>[3DA48][!!_ŜρýĊãm_!!]</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>[C1FC7][!!_Şтèâľτĥ Vîðèó_!!]</value>
+  </data>
 </root>

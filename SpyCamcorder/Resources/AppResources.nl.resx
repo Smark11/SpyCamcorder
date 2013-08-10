@@ -125,4 +125,181 @@
     <value>nl</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Spion Camcorder</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>toevoegen</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menu-Item</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Wilt u al uw video's verwijderen?  Waarschuwing: zodra geschrapt, ze kunnen niet worden hersteld!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Alle video's verwijderen</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Tik op het scherm instellingen om de instellingen te bekijken.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Selecteer de voor- of achterzijde van de camera.  U kunt ook zet de auto lock screen uit hier.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Wanneer het lampje groen is, is de toepassing klaar om een video te registreren.  Om te beginnen met opnemen, tikt u op de knop Vernieuwen.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Wanneer de knop Vernieuwen geel is, wordt de video begint te registreren.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Wanneer de video opneemt, is de knop rood.  Om te stoppen met de opname, tikt u op de rode knop.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Als u wilt uw video's bekijken, tikt u op de knop video's.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Druk op spelen om te spelen de video en verwijderen om te verwijderen van de video.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Vanaf hier kunt u stoppen, afspelen, onderbreken en de video uploaden naar skydrive.  Let op: u moet verbonden zijn met wifi om een video te uploaden.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Als u wilt verwijderen al uw video's van uw telefoon, tik op de delete knop voor alle video's.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instructies</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Meer Apps uit KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Tarief</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Stap 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Stap 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Stap 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Stap 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Stap 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Stap 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Stap 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Stap 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Stap 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>U aan het opnemen bent!  Stop de opname om uw video's.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>De evaluatieversie is verlopen.  Alstublieft de ontwikkelaars van de steun, en deze toepassing te kopen!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>U hebt </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> dag(en) te gaan in uw proces.  Om uit te breiden uw proefperiode van 3 dagen tot 10 dagen, stem op deze app 5 sterren en een positieve reactie.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Omvang verhoor?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>dag(en) te gaan in uw proces.  Wenst u te kopen de toepassing?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Aankoop?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Video 's</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pauze</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Spelen</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Versie 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Terug</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Voorzijde</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Lock Timeout gehandicapten</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Lock Timeout ingeschakeld</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Probeer gratis vandaag!
+
+Deze toepassing is dat u toestaat om discrete video's nemen terwijl het surfen op het web.
+
+Een gebruiker kan:
+
+* Een Video opnemen
+* Bekijk de Video
+* De Video uploaden naar SkyDrive bij het gebruik van Wifi
+* Schrappen van alle video 's
+* Knevel voorcamera of Rear Camera
+
+KLBCreations is niet verantwoordelijk voor misbruik van deze toepassing.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Camcorder</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Spion Camcorder</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Verborgen Video</value>
+  </data>
 </root>

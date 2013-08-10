@@ -74,7 +74,7 @@ namespace SpyCamcorder
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
             CheckLicense();
-            _isTrial = true;
+            //_isTrial = true;
         }
 
         // Code to execute when the application is activated (brought to foreground)
@@ -83,7 +83,7 @@ namespace SpyCamcorder
         {
             CheckLicense();
 
-            _isTrial = true;
+            //_isTrial = true;
 
             MainPage app = MainPage._mainPageInstance;
             app.IsAppTrialOrBought(true);

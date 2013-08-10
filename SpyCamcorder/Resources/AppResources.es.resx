@@ -125,4 +125,181 @@
     <value>es</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Videocámara espía</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Elemento de menú</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>¿Desea borrar todos tus vídeos?  ADVERTENCIA: una vez eliminados, ellos pueden no ser recuperados!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Eliminar todos los Videos</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Toque la pantalla de configuración para ver las opciones.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Seleccione la cámara trasera o delantera.  Usted puede también girar el bloqueo automático de pantalla fuera de aquí.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Cuando la luz es verde, la aplicación está preparada grabar un video.  Para iniciar la grabación, pulse el botón Actualizar.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Cuando el botón refresh es amarillo, comienza a grabar el video.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Cuando está grabando el video, el botón es de color rojo.  Para detener la grabación, pulse el botón rojo.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Para revisar tus vídeos, pulse el botón de videos.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Pulse para reproducir el video y eliminar para borrar el video.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Desde aquí, puede detener, reproducir, pausa y subir el video a skydrive.  Tenga en cuenta que debe estar conectado a wifi para subir un video.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Para borrar todos tus vídeos desde tu teléfono, pulse el eliminar todos los botones de videos.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instrucciones</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Más aplicaciones de KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Tasa</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Paso 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Paso 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Paso 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Paso 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Paso 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Paso 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Paso 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Paso 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Paso 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Está grabando!  Detener la grabación para ver tus vídeos.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Prueba</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Su juicio ha caducado.  Por favor apoya a los desarrolladores y comprar esta aplicación!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Tienes </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> días restantes en su juicio.  Para extender su prueba de 3 días a 10 días, este estrellas 5 la aplicación de la tarifa y dejar un Comentario positivo.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>¿Extender el juicio?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>días restantes en su juicio.  ¿Desea comprar la aplicación?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>¿Compra?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Jugar</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Parada</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Versión 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Atrás</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Frente</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Cerradura Timeout discapacitados</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Tiempo de espera de bloqueo activado</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Pruebe gratis hoy!
+
+Esta aplicación es que le permite tomar vídeos discretos mientras navega por la web.
+
+Un usuario puede:
+
+* Grabar un Video
+* Revisar el Video
+* Subir el Video a SkyDrive al usar Wifi
+* Eliminar todos los videos
+* Activar cámara frontal y cámara trasera
+
+KLBCreations no es responsable por el mal uso de esta aplicación.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Videocámara</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Videocámara espía</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Vídeo Stealth</value>
+  </data>
 </root>

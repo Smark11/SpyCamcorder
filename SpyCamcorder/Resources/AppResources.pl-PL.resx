@@ -125,4 +125,181 @@
     <value>pl-PL</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Szpieg Camcorder</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Element menu</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Czy chcesz usunąć wszystkie filmy?  Uwaga: po usunięciu, one nie można odzyskać!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Usuń wszystkie filmy</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Dotknij ekranu ustawienia, aby wyświetlić ustawienia.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Wybierz przedniej lub tylnej kamery.  Możesz też włączyć auto blokada ekranu tutaj.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Gdy światło jest zielony, aplikacja jest gotowa do nagrywania wideo.  Aby rozpocząć nagrywanie, naciśnij przycisk Odśwież.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Gdy przycisk odświeżania jest żółty, film zaczyna się nagrać.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Podczas nagrywania wideo, ten guzik jest czerwony.  Aby zatrzymać nagrywanie, naciśnij czerwony przycisk.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Przegląd filmów wideo, naciśnij przycisk wideo.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Naciśnij play do gry wideo i Usuń, aby usunąć film.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Stąd można zatrzymać, powtórka, wstrzymać i przesłać wideo do usługi skydrive.  Prosimy pamiętać, że musi być podłączony do wifi, aby przesłać wideo.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Aby usunąć wszystkie pliki wideo z telefonu, stuknij Usuń wszystkie filmy przycisk.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instrukcje</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Więcej aplikacji z KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Kurs</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Krok 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Krok 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Krok 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Krok 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Krok 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Krok 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Krok 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Krok 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Krok 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Nagrywania!  Zatrzymaj nagrywanie do wyświetlania filmów.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Badania</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Twoja próba wygasła.  Prosimy o wsparcie programistów i zakupu tej aplikacji!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Masz </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> dni pozostałych w próbnej.  Przedłużenie próbnego od 3 dni do 10 dni, Oceń ten aplikacja 5 gwiazdek i Zostaw komentarz pozytywny.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Przedłużyć okres próbny?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>dni pozostałych w próbnej.  Czy chcesz kupić aplikacji?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Zakup?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Filmy</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pauza</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Zagraj</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Przystanek</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Wersja 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Wstecz</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Przód</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Niepełnosprawnych limit czasu blokady</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Limit blokady</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Spróbuj Darmowe dziś!
+
+Ta aplikacja to pozwala na podjęcie dyskretny wideo podczas pasienie się ten tkanina.
+
+Użytkownik może:
+
+* Nagrywanie wideo
+* Przegląd wideo
+* Przesłać wideo do usługi SkyDrive przy użyciu Wifi
+* Usuń wszystkie filmy
+* Przełącz kamerę z przodu lub tyłu aparatu
+
+KLBCreations nie jest odpowiedzialny za mis tej aplikacji.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Kamery</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Wideo</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Szpieg Camcorder</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Stealth wideo</value>
+  </data>
 </root>

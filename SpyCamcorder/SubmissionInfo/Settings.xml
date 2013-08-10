@@ -1,7 +1,6 @@
 <MarketplaceDetails>
-  <SmallAppTile>
-  </SmallAppTile>
-  <ScreenShots>;;;;;;;;</ScreenShots>
-  <ScreenShotsWXGA>;;;;;;;;</ScreenShotsWXGA>
-  <ScreenShots720P>;;;;;;;;</ScreenShots720P>
+  <SmallAppTile>PotentialEdited300x300.png</SmallAppTile>
+  <ScreenShots>Instruction0400.png;Instruction1400.png;Instruction2400.png;Instruction3400.png;Instruction4400.png;Instruction5400.png;Instruction6400.png;Instruction7400.png;</ScreenShots>
+  <ScreenShotsWXGA>Instruction1768.png;Instruction-1768.png;Instruction2768.png;Instruction3768.png;Instruction4768.png;Instruction5768.png;Instruction6768.png;Instruction7768.png;</ScreenShotsWXGA>
+  <ScreenShots720P>Instruction0.png;Instruction1.png;Instruction-1.png;Instruction2.png;Instruction3.png;Instruction4.png;Instruction5.png;Instruction6.png;</ScreenShots720P>
 </MarketplaceDetails>

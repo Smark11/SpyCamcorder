@@ -125,4 +125,181 @@
     <value>zh-Hant</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>間諜攝像機</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>功能表項目</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>你想要刪除所有的視頻嗎？警告: 刪除後，他們可以不恢復 ！</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>刪除所有的視頻</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>點擊設置螢幕，查看設置。</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>選擇在前面或後置攝像頭。你可能還輪自動鎖定螢幕掉在這裡。</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>當指示燈為綠色時，應用程式準備就緒錄製的視頻。要開始錄製，請點擊刷新按鈕。</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>黃色的刷新按鈕時，視頻開始記錄。</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>視頻錄製時，該按鈕是紅色的。要停止錄製，請點擊紅色按鈕。</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>要查看您的視頻，請點擊視頻按鈕。</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>按播放的播放視頻，並刪除要刪除的視頻。</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>從這裡，你可以停止、 重播、 暫停和將視頻上傳到 skydrive。請注意，您必須連接到無線網路上傳的視頻。</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>要刪除所有的視頻從您的電話，請點擊刪除所有的視頻按鈕。</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>說明</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>來自 KLBCREATIONS 的更多應用程式</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>速率</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>第 1 步：</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>第 2 步：</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>第 3 步：</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>第 4 步：</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>第 5 步：</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>第 6 步：</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>第 7 步：</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>第 8 步：</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>第 9 步：</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>您正在錄製 ！停止錄製以查看您的視頻。</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>您的試用版已過期。請支援的開發商和購買此應用程式 ！</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>你有</value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value>在您的試用版中剩餘的天數。延長您從 3 天到 10 天的試用，率這個 app 5 星，並留下積極的評論。</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>延長審判嗎？</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>在您的試用版中剩餘的天數。你想要購買應用程式嗎？</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>購買嗎？</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>視頻</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>暫停</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>版本 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>前面</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>鎖超時已禁用</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>啟用鎖定超時</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>嘗試免費今天 ！！
+
+此應用程式是允許您在流覽 web 時採取謹慎的視頻。
+
+使用者可以：
+
+* 記錄視頻
+＊ 檢討視頻
+* 上傳視頻到 SkyDrive 時使用 wifi 上網
+* 刪除所有視頻
+* 切換前置攝像頭或後方攝像頭
+
+KLBCreations 不是負責為例，此應用程式。</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>攝像機</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>視頻</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>間諜攝像機</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>隱形的視頻</value>
+  </data>
 </root>

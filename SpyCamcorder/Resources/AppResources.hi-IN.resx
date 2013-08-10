@@ -125,4 +125,181 @@
     <value>hi-IN</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>जासूस Camcorder</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>जोड़ें</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>मेनू आइटम</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>के बारे में</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>क्या आप अपने वीडियो के सभी को हटाना चाहते हैं?  चेतावनी: एक बार नष्ट कर दिया, वे बरामद किया जा सकता नहीं!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>सभी वीडियो को हटाना</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>सेटिंग्स स्क्रीन सेटिंग्स को देखने के लिए टैप करें।</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>या तो सामने या पीछे कैमरा का चयन करें।  तुम भी ऑटो ताला स्क्रीन बंद यहाँ बारी कर सकते हैं।</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>जब प्रकाश हरा है, आवेदन एक वीडियो रिकॉर्ड करने के लिए तैयार है।  रिकॉर्डिंग शुरू करने के लिए, ताज़ा करें बटन नल।</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>जब ताज़ा करें बटन पीला है, वीडियो रिकॉर्ड करने के लिए शुरुआत है।</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>जब वीडियो रिकॉर्डिंग है, बटन लाल है।  िरकॉिडर्ंग बंद करने के लिए, लाल बटन नल।</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>आपके वीडियो की समीक्षा करने के लिए, वीडियो बटन नल।</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>प्रेस खेलने के लिए प्ले वीडियो, और वीडियो हटाने के लिए हटाएँ।</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>यहाँ से, आप कर सकते हैं बंद करो, फिर से खेलना, विराम दें, और वीडियो अपलोड करने के लिए skydrive.  कृपया ध्यान दें आप वाईफ़ाई के लिए एक वीडियो अपलोड करने के लिए कनेक्ट होना चाहिए।</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>अपने वीडियो के सभी से अपने फोन को नष्ट करने के लिए, हटाएँ सभी वीडियो बटन नल।</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>निर्देश</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>KLBCREATIONS से अधिक Apps</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>दर</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>चरण 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>चरण 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>चरण 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>चरण 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>चरण 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>चरण 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>चरण 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>चरण 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>9 कदम:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>आप रिकॉर्डिंग कर रहे हैं!  अपने वीडियो को देखने के लिए रिकॉर्डिंग बंद करो।</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>परीक्षण</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>अपने परीक्षण समाप्त हो गया है।  कृपया डेवलपर्स का समर्थन है, और इस आवेदन खरीद!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>आप है </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> दिनों में अपने परीक्षण शेष।  10 दिनों के लिए 3 दिनों से अपने परीक्षण का विस्तार करने के लिए, इस app 5 सितारे दें, और एक सकारात्मक टिप्पणी छोड़ दें।</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>परीक्षण का विस्तार?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>दिनों में अपने परीक्षण शेष।  क्या आप अनुप्रयोग खरीद करने के लिए चाहते हैं?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>खरीद?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>वीडियो</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>हटाएँ</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>विराम दें</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>प्ले</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>रुको</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>संस्करण 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>पीठ</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>सामने</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>ताला टाइमआउट अक्षम</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>सक्षम ताला टाइमआउट</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>नि: शुल्क आज की कोशिश करो!
+
+इस अनुप्रयोग है आप वेब ब्राउज़ करते समय विचारशील वीडियो लेने के लिए अनुमति देता है।
+
+एक उपयोगकर्ता कर सकते हैं:
+
+* एक वीडियो रिकॉर्ड
+* वीडियो की समीक्षा
+* वीडियो के लिए SkyDrive वाईफ़ाई का उपयोग कर जब अपलोड
+* सभी वीडियो को हटाना
+* कैमरे के सामने या पीछे कैमरा टॉगल करें
+
+KLBCreations नहीं है इस आवेदन की mis-use के लिए जिम्मेदार है।</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Camcorder</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>वीडियो</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>जासूस Camcorder</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>चुपके वीडियो</value>
+  </data>
 </root>

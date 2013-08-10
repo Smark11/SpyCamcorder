@@ -125,4 +125,181 @@
     <value>cs-CZ</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Vyzvědač Videokamera</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Přidat</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Položka nabídky</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Chcete odstranit všechny vaše videa?  Upozornění: po odstranění, které nelze obnovit!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Odstranit všechny videa</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Klepnutím na obrazovku nastavení zobrazíte nastavení.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Vyberte buď na přední nebo zadní kamery.  Můžete také zapnout automatické uzamčení obrazovky vypnout zde.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Když svítí zelená, aplikace je připravena k nahrávat video.  Chcete-li začít nahrávat, klepněte na tlačítko Aktualizovat.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Když tlačítko Aktualizovat je žlutý, video začíná nahrávat.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Když je nahrávání videa, tlačítko je červená.  Chcete-li zastavit nahrávání, klepněte na červené tlačítko.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Chcete-li zkontrolovat svá videa, klepněte na tlačítko video.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Stiskněte tlačítko play na hrát video a odstranit odstranit video.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Odtud se můžete zastavit, přehrát, pozastavit a nahrát video na skydrive.  Vezměte prosím na vědomí, že musíte být připojeni k wifi nahrát video.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Chcete-li odstranit všechny vaše videa z telefonu, klepněte na odstranit všechny videa tlačítko.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instrukce</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Další aplikace od KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Míra</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Krok 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Krok 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Krok 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Krok 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Krok 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Krok 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Krok 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Krok 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Krok 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Nahrávání!  Zastavte zaznamenávání zobrazení videa.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Zkouška</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Vaše zkušební verze vypršela.  Prosím, podpora vývojářů a koupit tuto aplikaci!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Máte </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> dní zbývajících do svého procesu.  Prodloužit zkušební od 3 dnů do 10 dnů, hodnotit tuto app 5 hvězd a napsat pozitivní komentář.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Prodloužit zkušební verzi?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>dní zbývajících do svého procesu.  Chcete koupit aplikaci?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Nákup?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videa</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pauza</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Hrát</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Verze 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Zpět</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Přední</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Zakázáno časový limit zámek</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Časový limit uzamčení povoleno</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Vyzkoušejte zdarma ještě dnes!
+
+Je tato aplikace vám umožní vzít diskrétní videa při procházení webu.
+
+Uživatel může:
+
+* Záznam videa
+* Recenze Video
+* Nahrajte Video na SkyDrive, při používání Wifi
+* Odstraňte všechna videa
+* Přepnout fotoaparát přední nebo zadní fotoaparát
+
+KLBCreations není odpovědný za nedbalým této aplikace.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Videokamera</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Vyzvědač Videokamera</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Stealth Video</value>
+  </data>
 </root>

@@ -125,4 +125,181 @@
     <value>fr</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Camera espion</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Élément de menu</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Sur</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Vous désirez supprimer toutes vos vidéos ?  AVERTISSEMENT : une fois supprimés, ils ne peuvent pas être récupérés !</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Supprimer toutes les vidéos</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Appuyez sur l'écran de paramètres pour afficher les paramètres.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Sélectionnez la caméra arrière ou avant.  Vous pouvez également tourner le verrou auto écran éteint ici.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Lorsque le voyant est vert, l'application est prête à enregistrer une vidéo.  Pour commencer l'enregistrement, appuyez sur le bouton Actualiser.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Lorsque le bouton de rafraîchissement est jaune, la vidéo commence à enregistrer.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Lorsque la vidéo est l'enregistrement, le bouton est rouge.  Pour arrêter l'enregistrement, appuyez sur le bouton rouge.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Pour visualiser vos vidéos, appuyez sur le bouton vidéos.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Appuyez sur pour écouter la vidéo et supprimer pour supprimer la vidéo.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>De là, vous pouvez arrêter, relire, faire une pause et télécharger la vidéo sur skydrive.  Veuillez noter que vous devez être connecté au wifi pour charger une vidéo.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Pour supprimer toutes vos vidéos depuis votre téléphone, appuyez le bouton Supprimer toutes les vidéos.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instructions</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Plus d'Apps de KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Taux</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Étape 1 :</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Étape 2 :</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Étape 3 :</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Étape 4 :</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Étape 5 :</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Étape 6 :</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Étape 7 :</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Étape 8 :</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Étape 9 :</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Vous enregistrez !  Arrêter l'enregistrement pour afficher vos vidéos.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Votre période d'essai a expiré.  S'il vous plaît soutenir les développeurs et acheter cette application !</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Vous avez </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> jours restants dans votre période d'essai.  Pour prolonger votre période d'essai de 3 jours à 10 jours, note cette étoiles app 5 et laissez un commentaire positif.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Prolonger le procès ?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>jours restants dans votre période d'essai.  Vous souhaitez acheter l'application ?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Achat ?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Vidéos</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Jouer</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Arrêt</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Version 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Précédent</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Avant</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Lock Timeout handicapés</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Délai d'attente de verrouillage activé</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Essayez gratuitement aujourd'hui !
+
+Cette application est permet de prendre des vidéos discrets tout en naviguant sur le web.
+
+Un utilisateur peut :
+
+* Enregistrer une vidéo
+* Revoir la vidéo
+* Télécharger la vidéo sur SkyDrive lors de l'utilisation de Wifi
+* Supprimer toutes les vidéos
+* Basculer la caméra frontale ou arrière caméra
+
+KLBCreations n'est pas responsable de la mauvaise utilisation de cette application.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Caméscope</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Vidéo</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Camera espion</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Vidéo furtif</value>
+  </data>
 </root>

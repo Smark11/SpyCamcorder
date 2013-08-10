@@ -125,4 +125,181 @@
     <value>el-GR</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Κατάσκοπος βιντεοκάμερα</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Προσθέστε</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Στοιχείο μενού</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Σχετικά με</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Θέλετε να διαγράψετε όλα τα βίντεό σας;  ΠΡΟΕΙΔΟΠΟΙΗΣΗ: αφού διαγραφούν, αυτοί δεν μπορούν να ανακτηθούν!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Διαγράψετε όλα τα βίντεο</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Πατήστε Ρυθμίσεις οθόνης για να δείτε τις ρυθμίσεις.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Επιλέξτε είτε το μέτωπο ή το πίσω κάμερα.  Μπορείτε επίσης σειρά την αυτόματη κλειδαριά οθόνη από εδώ.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Όταν το φως είναι πράσινο, η εφαρμογή είναι έτοιμοι για την εγγραφή ενός βίντεο.  Για να ξεκινήσει η εγγραφή, πατήστε το κουμπί "Ανανέωση".</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Όταν το κουμπί "Ανανέωση" είναι το κίτρινο, το βίντεο αρχίζει να καταγράφει.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Όταν το βίντεο η καταγραφή, το κουμπί είναι κόκκινο.  Για να διακόψετε την εγγραφή, πατήστε το κόκκινο κουμπί.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Για να εξετάσουμε τα βίντεο σας, πατήστε το κουμπί βίντεο.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Πατήστε τον αγώνα να παίξει το βίντεο, και να διαγραφεί για να διαγράψετε το βίντεο.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>Από εδώ, μπορείτε σταματήσει, αναπαραγωγή, παύση, και ανεβάστε το βίντεο στο skydrive.  Παρακαλείστε να σημειώσετε ότι θα πρέπει να είστε συνδεδεμένος με το wifi για να ανεβάσετε ένα βίντεο.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Για να διαγράψετε όλα σας βίντεο από το τηλέφωνό σας, πατήστε το delete όλα κουμπί βίντεο.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Οδηγίες</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Περισσότερα Apps από KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Ποσοστό</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Βήμα 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Βήμα 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Βήμα 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Βήμα 4:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>Βήμα 5:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>Βήμα 6:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>Βήμα 7:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>Βήμα 8:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>Βήμα 9:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Κάνετε εγγραφή!  Διακόψετε την εγγραφή για να δείτε τα βίντεο σας.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Δοκιμή</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Δίκη σας έχει λήξει.  Παρακαλούμε να υποστηρίξει τους προγραμματιστές, και αγοράσετε αυτής της εφαρμογής!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Έχετε </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> μέρες που παρέμεινα στη ΔΙΚΗ σας.  Να επεκτείνει σας δίκη από 3 ημέρες έως 10 ημέρες, Βαθμολογήστε αυτό το app 5 αστέρια, και να αφήσετε ένα θετικό σχόλιο.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Επεκτείνει τη δίκη;</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>μέρες που παρέμεινα στη ΔΙΚΗ σας.  Θέλετε να αγοράσει την εφαρμογή;</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Αγορά;</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Βίντεο</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Παύση</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Παιχνίδι</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Σταμάτα</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Έκδοση 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Πίσω</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Μέτωπο</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Κλειδαριά χρονικό όριο άτομα με ειδικές ανάγκες</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Χρονικό όριο κλειδώματος ενεργοποιημένη</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Δοκιμάστε το δωρεάν σήμερα!
+
+Αυτή η εφαρμογή είναι σας επιτρέπει να πάρετε διακριτική βίντεο κοιτάζοντας βιαστικά τον ιστό.
+
+Ένας χρήστης μπορεί να:
+
+* Εγγραφή βίντεο
+* Αναθεώρηση βίντεο
+* Ανεβάστε το βίντεο στο SkyDrive, όταν χρησιμοποιείτε το Wifi
+* Διαγράψτε όλα τα βίντεο
+* Εναλλαγή μπροστινή φωτογραφική μηχανή ή κάμερα πίσω
+
+KLBCreations δεν είναι υπεύθυνη για την κακή χρήση αυτής της εφαρμογής.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Βιντεοκάμερα</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Βίντεο</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Κατάσκοπος βιντεοκάμερα</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Stealth βίντεο</value>
+  </data>
 </root>

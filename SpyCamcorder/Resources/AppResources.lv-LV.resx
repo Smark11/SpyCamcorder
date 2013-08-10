@@ -125,4 +125,181 @@
     <value>lv-LV</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Spy Camcorder</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>pievienot</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Izvēlnes elements</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Par</value>
+  </data>
+  <data name="DeleteAllVideos" xml:space="preserve">
+    <value>Vai vēlaties izdzēst visus videoklipus  Brīdinājums: izdzēšot, viņi nevar atgūt!</value>
+  </data>
+  <data name="DeleteAllVideos1" xml:space="preserve">
+    <value>Izdzēst visus videoklipus</value>
+  </data>
+  <data name="Instruction1" xml:space="preserve">
+    <value>Pieskarieties iestatījumu ekrānu, lai apskatītu iestatījumus.</value>
+  </data>
+  <data name="Instruction2" xml:space="preserve">
+    <value>Atlasiet priekšējo vai aizmugurējo kameru.  Var arī ieslēgt automātiskās bloķēšanas ekrāna pie šeit.</value>
+  </data>
+  <data name="Instruction3" xml:space="preserve">
+    <value>Kad indikators ir zaļš, pieteikums ir sagatavots, lai ierakstītu videoklipu.  Lai sāktu ierakstīšanu, pieskarieties pogas Atsvaidzināt.</value>
+  </data>
+  <data name="Instruction4" xml:space="preserve">
+    <value>Kad uz atsvaidzināšanas pogas ir dzeltenā krāsā, video sāk ierakstīt.</value>
+  </data>
+  <data name="Instruction5" xml:space="preserve">
+    <value>Ierakstot video, pogas ir sarkanā krāsā.  Apturēt ierakstīšanu, nospiediet sarkano pogu.</value>
+  </data>
+  <data name="Instruction6" xml:space="preserve">
+    <value>Lai pārskatītu jūsu video, pieskarieties pogai video.</value>
+  </data>
+  <data name="Instruction7" xml:space="preserve">
+    <value>Nospiediet atskaņot atskaņot video un delete, lai izdzēstu videoklipu.</value>
+  </data>
+  <data name="Instruction8" xml:space="preserve">
+    <value>No šejienes, var pārtraukt, atskaņot, pauzēt un augšupielādēt video šeit: SkyDrive.  Lūdzu, ņemiet vērā, jābūt izveidotam savienojumam ar wifi augšupielādēt video.</value>
+  </data>
+  <data name="Instruction9" xml:space="preserve">
+    <value>Lai dzēstu visus savus videoklipus no tālruņa, pieskarieties Dzēst visus video pogu.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instrukcijas</value>
+  </data>
+  <data name="MoreAps" xml:space="preserve">
+    <value>Vairāk Apps no KLBCREATIONS</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Likme</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Iestatījumus</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>1. Solis:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>2. Solis:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>3. Solis:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>4. Solis:</value>
+  </data>
+  <data name="Step5" xml:space="preserve">
+    <value>5. Solis:</value>
+  </data>
+  <data name="Step6" xml:space="preserve">
+    <value>6. Solis:</value>
+  </data>
+  <data name="Step7" xml:space="preserve">
+    <value>7. Solis:</value>
+  </data>
+  <data name="Step8" xml:space="preserve">
+    <value>8. Solis:</value>
+  </data>
+  <data name="Step9" xml:space="preserve">
+    <value>9. Solis:</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Esat reģistrējis!  Apturēt ierakstīšanu, lai apskatītu jūsu video.</value>
+  </data>
+  <data name="Test1" xml:space="preserve">
+    <value>Tests</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Izmēģinājuma versijas derīguma termiņš ir beidzies.  Lūdzu atbalstīt izstrādātājiem un iegādāties šo pieteikumu!</value>
+  </data>
+  <data name="TrialLeft1" xml:space="preserve">
+    <value>Jums ir </value>
+  </data>
+  <data name="TrialLeft2" xml:space="preserve">
+    <value> dienas atlicis izmēģinājuma versiju.  Paplašināt savu izmēģinājuma versiju no 3 dienām līdz 10 dienām, novērtēt šo app 5 zvaigznes un atstāt pozitīvu komentāru.</value>
+  </data>
+  <data name="TrialLeft3" xml:space="preserve">
+    <value>Paplašināt izmēģinājuma versija?</value>
+  </data>
+  <data name="TrialLeft4" xml:space="preserve">
+    <value>dienas atlicis izmēģinājuma versiju.  Vai jūs vēlaties iegādāties programmu?</value>
+  </data>
+  <data name="TrialLeft5" xml:space="preserve">
+    <value>Iegādāties?</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>KLBCreations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Dzēst</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pauzes</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Atskaņot</value>
+  </data>
+  <data name="SkyDrive" xml:space="preserve">
+    <value>SkyDrive</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>apstājieties</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>KlbCreations01@yahoo.com</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Versija 1.0</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Atpakaļ</value>
+  </data>
+  <data name="Front" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="LockDisabled" xml:space="preserve">
+    <value>Bloķēšanas taimauts invalīdiem</value>
+  </data>
+  <data name="LockEnabled" xml:space="preserve">
+    <value>Aktivizē bloķēšanas taimauts</value>
+  </data>
+  <data name="zDescription" xml:space="preserve">
+    <value>Izmēģiniet bezmaksas šodien!
+
+Šis pieteikums ir ļauj jums veikt diskrētu video, pārlūkojot Web lapas.
+
+Lietotājs var:
+
+* Lai ierakstītu videoklipu
+* Video apskats
+* Augšupielādēt Video SkyDrive, izmantojot Wifi
+* Izdzēst visus videoklipus
+* Ieslēgtu priekšējo kameru vai atpakaļskata kameru
+
+KLBCreations nav atbildīga par šī pieteikuma mis-use.</value>
+  </data>
+  <data name="zWord1" xml:space="preserve">
+    <value>Videokamera</value>
+  </data>
+  <data name="zWord2" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="zWord3" xml:space="preserve">
+    <value>Spy Camcorder</value>
+  </data>
+  <data name="zWord4" xml:space="preserve">
+    <value>SpyCam</value>
+  </data>
+  <data name="zWord5" xml:space="preserve">
+    <value>Maskēšanās Video</value>
+  </data>
 </root>
